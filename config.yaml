@@ -1,0 +1,89 @@
+# Mantra Fantacalcio Strategy Configuration
+# Side Event Mantra 25/26 Season
+
+# AUCTION SETTINGS
+auction:
+  season: "25/26"
+  event_name: "Side Event Mantra"
+  total_budget: 500  # Update with your actual budget
+  teams_count: 8     # Update with actual number of teams
+  format: "english"  # english, sealed, or mixed
+  
+# MODULES CONFIGURATION
+modules:
+  primary:
+    name: "4-2-3-1"
+    formation: [1, 4, 2, 3, 1]  # P, D, C, T, A
+    roles:
+      P: 3    # Portieri
+      D: 8    # Difensori  
+      C: 8    # Centrocampisti
+      T: 6    # Trequartisti
+      A: 3    # Attaccanti
+    total_players: 25
+    
+  backups:
+    - name: "4-3-3"
+      formation: [1, 4, 3, 3]  # P, D, C, A (no T)
+      roles:
+        P: 3
+        D: 8
+        C: 8
+        T: 6  # Can play as wingers
+        A: 3
+        
+    - name: "4-4-2"
+      formation: [1, 4, 4, 2]  # P, D, C, A (no T)
+      roles:
+        P: 3
+        D: 8
+        C: 8
+        T: 4  # Can play as wide midfielders
+        A: 3
+
+# TIER SYSTEM
+tiers:
+  method: "quantile"
+  S_tier: 0.10    # Top 10%
+  A_tier: 0.25    # Next 25% (10-35%)
+  B_tier: 0.40    # Next 40% (35-75%)
+  C_tier: 0.25    # Bottom 25%
+  
+# POLYVALENCE BONUSES
+polyvalence:
+  multi_role_bonus: 0.12    # +12% for players fitting multiple roles
+  flexibility_bonus: 0.08   # +8% for tactical flexibility
+  backup_module_bonus: 0.05 # +5% if useful in backup modules
+
+# BUDGET ALLOCATION STRATEGY
+budget_allocation:
+  P: 0.15   # 15% for goalkeepers
+  D: 0.30   # 30% for defenders
+  C: 0.25   # 25% for midfielders
+  T: 0.20   # 20% for attacking midfielders
+  A: 0.10   # 10% for forwards
+  
+# BIDDING STRATEGY
+bidding:
+  anti_parity_rule: true     # +1 on round numbers
+  max_overbid_percent: 0.15  # Max 15% over valuation
+  target_acquisition_rate: 0.80  # Aim to win 80% of targeted bids
+  
+# DATA SOURCES
+data_sources:
+  primary: "fantcalciopedia"
+  excel_source: "weekly_update"
+  update_frequency: "weekly"
+  
+# SIMULATION SETTINGS
+simulation:
+  random_seed: 42           # Fixed seed for reproducibility
+  monte_carlo_runs: 1000    # Number of simulation runs
+  scenarios: ["conservative", "balanced", "aggressive"]
+  
+# OUTPUT SETTINGS
+output:
+  reports_dir: "reports"
+  format: ["pdf", "csv", "excel"]
+  include_charts: true
+  language: "italian"
