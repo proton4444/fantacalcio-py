@@ -1,0 +1,89 @@
+# ==== General Settings ====
+seed: 333
+output_dir: reports
+excel_path: data/giocatori_excel.xlsx   # Path to your updated weekly Excel
+data_path: data/Quotazioni_Fantacalcio_Stagione_2025_26.xlsx
+
+# ==== Modules ====
+primary_module: "4-2-3-1"
+backup_modules:
+  - "4-3-3"
+  - "4-4-2"
+
+# Role mapping for each module (Mantra roles)
+modules:
+  "4-2-3-1":
+    Por: 1
+    Dc: 2
+    Dd: 1
+    Ds: 1
+    M: 1
+    C: 1
+    W: 2
+    T: 1
+    Pc: 1
+  "4-3-3":
+    Por: 1
+    Dc: 2
+    Dd: 1
+    Ds: 1
+    M: 1
+    C: 2
+    W: 2
+    Pc: 1
+  "4-4-2":
+    Por: 1
+    Dc: 2
+    Dd: 1
+    Ds: 1
+    M: 1
+    C: 1
+    W: 2
+    A: 1
+    Pc: 1
+
+# ==== Supply (league-wide player counts per role) ====
+supply:
+  Por: 12
+  Dc: 26
+  Dd: 14
+  Ds: 14
+  E: 12
+  M: 24
+  C: 24
+  W: 18
+  T: 18
+  A: 18
+  Pc: 18
+
+# ==== Simulation Settings ====
+num_teams: 8
+total_budget: 500
+num_simulations: 1000
+
+# ==== Analysis Settings ====
+scarcity_analysis:
+  enabled: true
+  risk_factor_weight: 0.3
+  consistency_weight: 0.4
+  upside_weight: 0.3
+
+shading_analysis:
+  enabled: true
+  monte_carlo_runs: 10000
+  confidence_level: 0.95
+  ownership_variance: 0.15
+
+auction_flow_analysis:
+  enabled: true
+  nomination_rounds: 25
+  strategy_types:
+    - aggressive
+    - patient
+    - value
+
+# ==== Report Settings ====
+report_title: "Fantacalcio Simulation Suite Report"
+author: "Fantacalcio Analysis System"
+generate_pdf: true
+include_visualizations: true
