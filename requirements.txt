@@ -1,6 +1,11 @@
 bs4
-beautifulsoup
+beautifulsoup4
 pandas
 loguru
 tqdm
 requests
+pyyaml
+numpy
+matplotlib
+seaborn
+openpyxl
