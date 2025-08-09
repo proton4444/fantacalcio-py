@@ -1,8 +1,15 @@
 # ==== General Settings ====
 seed: 333
 output_dir: reports
-excel_path: data/giocatori_excel.xlsx   # Path to your updated weekly Excel
+excel_path: data/Quotazioni_Fantacalcio_Stagione_2025_26.xlsx   # Path to your updated weekly Excel
 data_path: data/Quotazioni_Fantacalcio_Stagione_2025_26.xlsx
+tier_column: "FVM"
+
+# Tier quantiles for player classification
+tier_quantiles:
+  B: 0.20
+  A: 0.65
+  S: 0.920
 
 # ==== Modules ====
 primary_module: "4-2-3-1"
@@ -60,6 +67,12 @@ supply:
 num_teams: 8
 total_budget: 500
 num_simulations: 1000
+
+# ==== Opponent Modeling ====
+plus_one_rule: true
+opp_shading_mu: 0.75
+opp_shading_sd: 0.07
+opp_plus_one_prob: 0.6
 
 # ==== Analysis Settings ====
 scarcity_analysis:
