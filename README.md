@@ -1,21 +1,57 @@
-# Versione 2 -  Ancora più brutto
+# Fantacalcio Simulation Suite
 
-# COSA E' FANTACALCIO-PY?
- Un tool che scarica i database più recenti degli ultimi due campionati.
- Il programma provvederà poi a incrociare i dati mostrando l'andamento di un giocatore, la sua media negli ultimi due campionati la sua probabile titolarità futura (dato interessante se siamo ad inizio campionato) e due indici, uno di convenienza estrapolato dai dati e uno preso dal sito fantacalciopedia.
- Tutti questi dati verranno poi messi in un Excel per essere comparati.
+## Overview
 
-# COSA INDICA LA CONVENIENZA MO?
- Per convenienza si intende il rapporto tra il valore di base in asta e il suo rendimento passato o attuale (indicato con "convenienza today")
- Ad esempio Immobile è una macchina da gol ma la sua convenienza sarà più bassa rispetto a Vlahovic, che ha non solo una media simile, ma un prezzo base inferiore.
- Allo stesso tempo, pur essendo a parità di prezzo base, un giocatore come Luis Alberto sarà più conveniente di Barak per via delle partite giocate e del rendimento.
- Ovviamente questo tool è da usare leggendo l'output dato dallo stesso programma, poichè è stato ideato non per prendere giocatori come Immobile, bensì per fare colpi a basso prezzo di giocatori ovviamente non blasonati ma comunque utili alla causa (es. un Deulofeu o uno Arnautovic presi a poco che si son dimostrati degni del ruolo di riserva).
- Può capitare di prendere giocatori come Verde che vi faranno rimpiangere di aver usato il mio algoritmo per guidarvi all'asta, ma vabbè mo lo metto come disclaimer.
+Fantacalcio Simulation Suite is a powerful command-line tool for fantasy football ("Fantacalcio") auction preparation. It has evolved from a simple web scraper into a sophisticated analysis and simulation engine designed to give you a competitive edge in your auction.
 
- # DISCLAIMER
- - Se perdete il fanta non è colpa mia, io ci so arrivato secondo co sta roba. E l'anno dopo primo.
- - Servono pandas e bs4 per funzionare
- - Il tool utilizza i csv prodotti da fantacalciopedia, tutti i dati processati sono loro, dato che fantagazzetta ha deciso di tagliare i dataset open
+This tool does **not** scrape data. Instead, it uses a local Excel file of player data to run a series of complex analyses, providing deep insights into player valuation, auction dynamics, and optimal bidding strategies.
 
+## Key Features
 
-Nato da un'idea di cttynul 
+- **Configurable Simulation**: All aspects of the simulation are controlled through a detailed `config.yaml` file, allowing you to tailor the analysis to your league's specific rules (e.g., number of teams, budget, formations).
+- **Advanced Analysis Modules**:
+  - **Tier System**: Automatically classifies players into tiers (Elite, High, Medium, Low) based on their stats.
+  - **Scarcity Analysis**: Calculates player value based on the scarcity of their role in the league.
+  - **Shading Simulation**: Uses Monte Carlo simulation to model opponent bidding behavior and recommend optimal bid "shading" (how much to bid over a player's base value).
+  - **Auction Flow Analysis**: Simulates the overall flow of the auction to help with budget management.
+  - **Auction Strategy**: Helps identify the best players to target based on your chosen formation.
+- **Bidding Recommendations**:
+  - Generates a prioritized list of players to bid on for the first round of your auction.
+  - Includes a "smart bidding" feature that automatically adjusts bids to avoid round numbers (e.g., a bid of 50 will be adjusted to 51), a common strategy to win auctions.
+- **Comprehensive Reporting**: Generates a detailed PDF report summarizing the results of all analyses, complete with visualizations.
+- **Auditable Results**: Creates an audit trail to ensure results are reproducible, tracking the source data hash and git commit.
+
+## How to Use
+
+1.  **Install Dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2.  **Prepare Your Data**:
+    - Obtain an Excel file with player listings and stats for the upcoming season.
+    - Update the `excel_path` and `data_path` in `config.yaml` to point to your file. The tool expects the data to start on the second row (header=1).
+
+3.  **Configure Your League**:
+    - Edit `config.yaml` to match your league's settings (e.g., `num_teams`, `total_budget`, `primary_module` for your formation).
+
+4.  **Run the Simulation**:
+    - The main entry point is `sim.py`. You must provide a path to your configuration file and specify which analyses to run.
+    - To run all analyses and generate a full report, use the `--all` flag:
+      ```bash
+      python sim.py --config config.yaml --all
+      ```
+    - You can also run specific analyses:
+      ```bash
+      python sim.py --config config.yaml --scarcity --shading
+      ```
+    - The results, including the PDF report and CSV files, will be saved in the `reports/` directory by default.
+
+## Legacy Scraper (`Fantacalcio.py`)
+
+This repository also contains the original web-scraping script, `Fantacalcio.py`. This script scrapes data from `fantacalciopedia.com` and calculates a simple "convenience" metric.
+
+**Note**: This script is considered **deprecated** and is no longer maintained. The main focus of this project is the `sim.py` simulation suite, which provides far more powerful and reliable analysis.
+
+---
+*Nato da un'idea di cttynul*

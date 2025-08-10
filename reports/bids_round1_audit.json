@@ -9,7 +9,7 @@
   "totals": {
     "total_bids": 6,
     "sum_recommended": 1896,
-    "sum_max_bid": 960
+    "sum_max_bid": 966
   },
   "constraints": {
     "gk_count": 0,
@@ -39,8 +39,8 @@
   },
   "provenance": {
     "excel_sha256": "8610daf308c599d43f9b984bc65f919ed7c756d50876b8b7a8fd2fd6055c3041",
-    "git_commit": "18a3b8417a52cfccbdf012f79c911aa104fce47d",
-    "generation_time": "2025-08-10T09:53:02.038205"
+    "git_commit": "5ad115f2bcb2e808077f1cdca8bce97f8a9a3797",
+    "generation_time": "2025-08-10T11:14:19.464057"
   },
-  "timestamp": "2025-08-10T09:53:02.038205"
+  "timestamp": "2025-08-10T11:14:19.464073"
 }

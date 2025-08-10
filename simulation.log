@@ -1,0 +1,180 @@
+11:13:21 | INFO     | Attempting to load config from: config.yaml
+11:13:21 | INFO     | Config file exists: True
+11:13:21 | INFO     | Configuration loaded from config.yaml
+11:13:21 | INFO     | Config type: <class 'dict'>, Config content preview: {'seed': 333, 'output_dir': 'reports', 'excel_path': 'data/Quotazioni_Fantacalcio_Stagione_2025_26.x
+11:13:21 | INFO     | Output directory: /app/reports
+11:13:21 | INFO     | Starting scarcity analysis...
+11:13:21 | INFO     | Loading player data from data/Quotazioni_Fantacalcio_Stagione_2025_26.xlsx
+11:13:21 | SUCCESS  | Loaded 514 players
+11:13:21 | INFO     | Calculating position scarcity...
+11:13:21 | INFO     | Calculated scarcity for 4 positions
+11:13:21 | INFO     | Calculating expected points...
+11:13:21 | INFO     | Calculating risk factors...
+11:13:21 | INFO     | Calculating EV scores...
+11:13:21 | SUCCESS  | Calculated EV scores for 514 players
+11:13:21 | INFO     | Creating scarcity analysis visualizations...
+11:13:25 | SUCCESS  | Scarcity visualization saved to reports/scarcity_analysis_20250810_111322.png
+11:13:25 | INFO     | Exporting scarcity analysis results...
+11:13:25 | SUCCESS  | Results exported to reports/scarcity_analysis_results_20250810_111325.csv
+11:13:25 | SUCCESS  | Scarcity analysis completed
+11:13:25 | INFO     | Starting shading analysis...
+11:13:25 | INFO     | Loading player data from data/Quotazioni_Fantacalcio_Stagione_2025_26.xlsx
+11:13:25 | SUCCESS  | Loaded 514 players
+11:13:25 | INFO     | Estimating player ownership...
+11:13:25 | INFO     | Estimated ownership for 514 players
+11:13:25 | INFO     | Calculating shading values...
+11:14:07 | SUCCESS  | Calculated shading values for 514 players
+11:14:07 | INFO     | Creating shading analysis visualizations...
+11:14:10 | SUCCESS  | Shading visualization saved to reports/shading_analysis_20250810_111408.png
+11:14:10 | INFO     | Exporting shading analysis results...
+11:14:10 | SUCCESS  | Results exported to reports/shading_analysis_results_20250810_111410.csv
+11:14:10 | SUCCESS  | Shading analysis completed
+11:14:10 | INFO     | Starting tier analysis...
+11:14:10 | INFO     | Loading data from data/Quotazioni_Fantacalcio_Stagione_2025_26.xlsx
+11:14:10 | INFO     | Loaded 514 players
+11:14:10 | INFO     | After cleaning: 514 players
+11:14:10 | INFO     | Classifying players by tier...
+11:14:10 | INFO     | Calculating tier thresholds based on Quotazione
+11:14:10 | INFO     | Tier thresholds: Elite≥15.00, High≥8.00, Medium≥3.00, Low≥3.00
+11:14:10 | SUCCESS  | Classified 514 players into tiers
+11:14:10 | INFO     | Analyzing tier distribution...
+11:14:10 | SUCCESS  | Tier distribution analysis completed
+11:14:10 | INFO     | Creating tier analysis visualizations...
+11:14:13 | SUCCESS  | Visualizations saved to reports/tier_analysis_20250810_111410.png
+11:14:13 | INFO     | Exporting tier analysis results...
+11:14:13 | SUCCESS  | Results exported to reports/tier_analysis_results_20250810_111413.csv
+11:14:13 | SUCCESS  | Tier analysis completed
+11:14:13 | INFO     | Starting auction strategy analysis...
+11:14:13 | INFO     | Loading data from data/Quotazioni_Fantacalcio_Stagione_2025_26.xlsx
+11:14:13 | INFO     | Loaded 514 players
+11:14:13 | INFO     | After cleaning: 514 players
+11:14:13 | INFO     | Calculating budget allocation for balanced strategy
+11:14:13 | INFO     | Budget allocation: GK=40, DEF=92, MID=140, FWD=88, BENCH=40
+11:14:13 | INFO     | Identifying player targets...
+11:14:13 | SUCCESS  | Identified 33 player targets
+11:14:13 | INFO     | Creating models for 7 opponents
+11:14:13 | INFO     | Running 1000 auction simulations...
+11:14:13 | SUCCESS  | Completed 1000 auction simulations
+11:14:13 | INFO     | Optimizing auction strategy...
+11:14:13 | INFO     | Creating auction strategy visualizations...
+11:14:15 | SUCCESS  | Visualizations saved to reports/auction_strategy_20250810_111414.png
+11:14:15 | INFO     | Exporting auction strategy results...
+11:14:15 | SUCCESS  | Results exported to reports/auction_strategy_results_20250810_111415.csv
+11:14:15 | SUCCESS  | Auction strategy analysis completed
+11:14:15 | INFO     | Starting auction flow analysis...
+11:14:15 | INFO     | Loading player data from data/Quotazioni_Fantacalcio_Stagione_2025_26.xlsx
+11:14:15 | SUCCESS  | Loaded 514 players
+11:14:15 | INFO     | Categorizing players by tier...
+11:14:15 | INFO     | Player tier distribution:
+tier    C   D
+role
+A      79  23
+C     134  32
+D     144  42
+P      60   0
+11:14:15 | INFO     | Analyzing budget allocation...
+11:14:15 | SUCCESS  | Analyzed budget allocation for 7 role-tier combinations
+11:14:15 | INFO     | Generating auction strategies...
+11:14:15 | SUCCESS  | Generated 383 auction strategies
+11:14:15 | INFO     | Creating auction flow diagram...
+/app/modules/auction_flow.py:334: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  allocation_matrix = allocation_matrix.fillna(0).astype(float)
+11:14:17 | SUCCESS  | Auction flow diagram saved to reports/auction_flow_diagram_20250810_111416.png
+11:14:17 | INFO     | Creating budget allocation charts...
+11:14:19 | SUCCESS  | Budget allocation charts saved to reports/budget_allocation_charts_20250810_111417.png
+11:14:19 | INFO     | Exporting auction analysis results...
+11:14:19 | SUCCESS  | Results exported to reports/auction_strategies_20250810_111419.csv and reports/budget_allocations_20250810_111419.csv
+11:14:19 | SUCCESS  | Auction flow analysis completed
+11:14:19 | INFO     | Starting bids round 1 analysis...
+11:14:19 | INFO     | Loading data from data/Quotazioni_Fantacalcio_Stagione_2025_26.xlsx
+11:14:19 | INFO     | Loaded 514 players
+11:14:19 | SUCCESS  | After cleaning: 514 players
+11:14:19 | INFO     | Analysis results loaded
+11:14:19 | INFO     | Generating round 1 bidding recommendations...
+11:14:19 | INFO     | Loading data from data/Quotazioni_Fantacalcio_Stagione_2025_26.xlsx
+11:14:19 | INFO     | Loaded 514 players
+11:14:19 | INFO     | After cleaning: 514 players
+11:14:19 | INFO     | Calculating budget allocation for balanced strategy
+11:14:19 | INFO     | Budget allocation: GK=40, DEF=92, MID=140, FWD=88, BENCH=40
+11:14:19 | INFO     | Identifying player targets...
+11:14:19 | SUCCESS  | Identified 26 player targets
+11:14:19 | INFO     | Filtering to 26 target players based on formation requirements (multiplier: 2.5)
+11:14:19 | INFO     | Applied max_total_budget filter: 6 recommendations, total budget: 1896
+11:14:19 | SUCCESS  | Generated 6 bidding recommendations
+11:14:19 | INFO     | Generating audit manifest...
+11:14:19 | SUCCESS  | Audit manifest generated
+11:14:19 | SUCCESS  | Results exported to reports/bids_round1_recommendations_20250810_111419.csv and reports/bids_round1_audit.json
+11:14:19 | SUCCESS  | Bids round 1 analysis completed
+11:14:19 | INFO     | Generating combined PDF report...
+11:14:19 | INFO     | Generating comprehensive report: reports/fantacalcio_report_20250810_111419.pdf
+11:14:33 | SUCCESS  | Report generated successfully: reports/fantacalcio_report_20250810_111419.pdf
+11:14:33 | SUCCESS  | Analysis complete! Combined report saved to: reports/fantacalcio_report_20250810_111419.pdf
+
+============================================================
+FANTACALCIO ANALYSIS SUMMARY
+============================================================
+
+SCARCITY ANALYSIS:
+  Total Players: 514
+  Avg Ev Score: 2.739539859046469
+  Median Ev Score: 2.4989149305555554
+  Top Ev Score: 16.590477324237085
+  Positions Analyzed: 4
+  High Value Players: 52
+  Top Tier Count: 52
+
+SHADING ANALYSIS:
+  Total Players: 514
+  Players Analyzed: 514
+  Total Simulations: 10000
+  Confidence Level: 95
+  Ownership Variance: 0.03503098148454165
+  Avg Shading Value: -0.12194227459443309
+  Avg Tournament Ev: 8.793069006707917
+  Fade Opportunities: 486
+  Leverage Opportunities: 0
+  Neutral Plays: 28
+  Max Fade Value: -0.15
+  Max Leverage Value: 0.007894736842105232
+
+TIERS ANALYSIS:
+  Total Players Classified: 514
+  Elite Players: 57
+  High Tier Players: 144
+  Medium Tier Players: 211
+  Low Tier Players: 0
+  Bench Players: 102
+  Elite Threshold: 15.0
+  High Threshold: 8.0
+
+AUCTION_STRATEGY ANALYSIS:
+  Simulations Run: 1000
+  Player Targets: 33 identified
+  Budget Allocation: 400 credits allocated
+  Avg Confidence: 0.0
+  Total Target Players: 33
+  High Priority Targets: 11
+  Total Budget Allocated: 400.0
+  Average Team Quality: 0.0
+  Average Budget Utilization: 0.0
+
+AUCTION_FLOW ANALYSIS:
+  Total Strategies: 383
+  Strategy Distribution: {'value': 383}
+  Total Target Spend: 12112.5
+  Avg Confidence: 0.5499999999999998
+  Total Budget Allocated: 400.0
+  Budget Utilization: 100.0
+  Position Allocations: {'P': 36.36363636363637, 'D': 145.45454545454544, 'C': 145.45454545454544, 'A': 72.72727272727272}
+  Nomination Rounds Used: 3
+
+BIDS_ROUND1 ANALYSIS:
+  Total Recommendations: 6
+  Avg Recommended Bid: 316.0
+  Total Budget Required: 1896
+  High Priority Count: 6
+  Avg Confidence: 0.9
+  Plus One Percentage: 100.0
+
+Combined PDF Report: reports/fantacalcio_report_20250810_111419.pdf
+============================================================

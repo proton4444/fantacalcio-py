@@ -161,6 +161,10 @@ class BidsRound1Generator:
             # Set max bid (with buffer)
             max_bid = min(int(recommended_bid * 1.2), available_budget // 2)
             
+            # Adjust max_bid to avoid round numbers as per user request
+            if max_bid % 5 == 0:
+                max_bid += 1
+
             # Determine priority
             priority = self._determine_priority(tier, role, base_value)
             
