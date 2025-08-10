@@ -97,13 +97,20 @@ auction_flow_analysis:
     - patient
     - value
 
-# ==== Bids Round 1 Settings ====
+# ==== Bids Round 1 Settings - FIXED FOR 28 PLAYERS ====
 bids_round1:
   enabled: true
   reserve_credits: 80
-  filter_to_targets: true  # Only generate recommendations for formation-required players
-  target_multiplier: 2.5  # How many players per position to target (e.g., 2.5x formation requirements)
-  max_total_budget: 2000  # Maximum total recommended budget
+  filter_to_targets: false  # CHANGED: Include all viable players, not just formation minimums
+  target_multiplier: 3.0    # INCREASED: More players per position for better coverage
+  max_total_budget: 2800    # INCREASED: Higher budget limit for 28 players
+  min_players_per_position: 2  # NEW: Ensure at least 2 players per position
+  max_players_per_position: 4  # NEW: Cap players per position for balance
+  include_all_tiers: true   # NEW: Include Elite, High, and Medium tier players
+  tier_distribution:        # NEW: Target distribution across tiers
+    elite: 0.25            # 25% elite players (~7 players)
+    high: 0.45             # 45% high tier players (~13 players)  
+    medium: 0.30           # 30% medium tier players (~8 players)
 
 # ==== Audit Settings ====
 audit:
