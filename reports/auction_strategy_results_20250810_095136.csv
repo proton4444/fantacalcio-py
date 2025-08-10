@@ -1,0 +1,34 @@
+Player_Name,Role,Priority,Max_Bid,Expected_Price,Success_Rate_Percent,Average_Winning_Price,Tier
+David,A,low,27.0,25.65,0.0,0,Elite
+Gimenez,A,low,25.0,23.75,0.0,0,Elite
+Thuram K.,C,low,16.0,15.2,0.0,0,Elite
+Ederson D.S.,C,low,15.0,14.25,0.0,0,Elite
+Barella,C,low,14.0,13.299999999999999,0.0,0,High
+Politano,C,low,15.0,14.25,0.0,0,Elite
+Zambo Anguissa,C,low,15.0,14.25,0.0,0,Elite
+Angelino,D,low,15.0,14.25,0.0,0,Elite
+Di Lorenzo,D,low,14.0,13.299999999999999,0.0,0,High
+Zappacosta,D,low,13.0,12.35,0.0,0,High
+Di Gregorio,P,low,16.0,15.2,0.0,0,Elite
+Lukaku,A,medium,34.1,29.45,0.0,0,Elite
+Thuram,A,medium,31.900000000000002,27.549999999999997,0.0,0,Elite
+Calhanoglu,C,medium,25.3,21.849999999999998,0.0,0,Elite
+De Bruyne,C,medium,25.3,21.849999999999998,0.0,0,Elite
+Paz N.,C,medium,22.0,19.0,0.0,0,Elite
+Conceicao,C,medium,19.8,17.099999999999998,0.0,0,Elite
+Odgaard,C,medium,17.6,15.2,0.0,0,Elite
+Bastoni,D,medium,17.6,15.2,0.0,0,Elite
+Zortea,D,medium,17.6,15.2,0.0,0,Elite
+Cambiaso,D,medium,16.5,14.25,0.0,0,Elite
+Sommer,P,medium,17.6,15.2,0.0,0,Elite
+Martinez L.,A,must_have,44.2,32.3,0.0,0,Elite
+Kean,A,must_have,42.9,31.349999999999998,0.0,0,Elite
+Orsolini,C,must_have,39.0,28.5,0.0,0,Elite
+Pulisic,C,must_have,36.4,26.599999999999998,0.0,0,Elite
+Zaccagni,C,must_have,33.800000000000004,24.7,0.0,0,Elite
+McTominay,C,must_have,33.800000000000004,24.7,0.0,0,Elite
+Gudmundsson A.,C,must_have,31.200000000000003,22.799999999999997,0.0,0,Elite
+Dumfries,D,must_have,26.0,19.0,0.0,0,Elite
+Dimarco,D,must_have,24.7,18.05,0.0,0,Elite
+Gosens,D,must_have,23.400000000000002,17.099999999999998,0.0,0,Elite
+Meret,P,must_have,20.8,15.2,0.0,0,Elite

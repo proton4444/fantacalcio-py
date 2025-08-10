@@ -18,6 +18,9 @@ from modules.scarcity_sim import ScarcitySimulation
 from modules.shading_sim import ShadingSimulation
 from modules.auction_flow import AuctionFlowAnalysis
 from modules.report_builder import ReportBuilder
+from modules.tier_system import classify_players_by_tier
+from modules.auction_strategy import build_auction_strategy
+from modules.bids_round1 import generate_bids_round1
 
 
 def setup_logging(verbose: bool = False):
@@ -107,6 +110,23 @@ def run_shading_analysis(config: dict, output_dir: Path) -> dict:
     return results
 
 
+def run_tier_analysis(config: dict, output_dir: Path) -> dict:
+    """Run tier classification analysis."""
+    logger.info("Starting tier analysis...")
+    results = classify_players_by_tier(config, output_dir)
+    logger.success("Tier analysis completed")
+    return results
+
+
+def run_auction_strategy_analysis(config: dict, output_dir: Path, tier_results: dict | None = None) -> dict:
+    """Run auction strategy analysis, optionally using tier data."""
+    logger.info("Starting auction strategy analysis...")
+    tier_data = tier_results.get('player_tiers') if tier_results else None
+    results = build_auction_strategy(config, tier_data=tier_data, output_dir=output_dir)
+    logger.success("Auction strategy analysis completed")
+    return results
+
+
 def run_auction_flow_analysis(config: dict, output_dir: Path) -> dict:
     """Run auction flow analysis."""
     logger.info("Starting auction flow analysis...")
@@ -134,6 +154,29 @@ def run_auction_flow_analysis(config: dict, output_dir: Path) -> dict:
     }
     
     logger.success("Auction flow analysis completed")
+    return results
+
+
+def run_bids_round1_analysis(config: dict, output_dir: Path, tier_results: dict = None, 
+                           scarcity_results: dict = None, shading_results: dict = None) -> dict:
+    """Run bids round 1 analysis with audit trail."""
+    logger.info("Starting bids round 1 analysis...")
+    
+    # Check if module is enabled
+    if not config.get('bids_round1', {}).get('enabled', False):
+        logger.info("Bids round 1 analysis is disabled in config")
+        return {}
+    
+    # Generate bids with audit trail
+    results = generate_bids_round1(
+        config=config,
+        tier_data=tier_results,
+        scarcity_data=scarcity_results,
+        shading_data=shading_results,
+        output_dir=output_dir
+    )
+    
+    logger.success("Bids round 1 analysis completed")
     return results
 
 
@@ -198,12 +241,18 @@ Examples:
     
     # Determine which analyses to run
     run_scarcity = args.all or args.scarcity
-    run_shading = args.all or args.shading
+    run_shading = (args.all or args.shading) and not config.get('shading_disabled', False)
     run_auction = args.all or args.auction_flow
+    run_tiers = args.all
+    run_auction_strategy = args.all
+    run_bids_round1 = args.all
     
+    # Check for incompatible configurations
+    if config.get('shading_disabled', False) and run_bids_round1:
+        logger.error("Cannot run bids_round1 analysis when shading is disabled")
+        sys.exit(1)
     # Run analyses
     results = {}
-    
     try:
         if run_scarcity:
             results['scarcity'] = run_scarcity_analysis(config, output_dir)
@@ -211,19 +260,36 @@ Examples:
         if run_shading:
             results['shading'] = run_shading_analysis(config, output_dir)
         
+        if run_tiers:
+            results['tiers'] = run_tier_analysis(config, output_dir)
+        
+        if run_auction_strategy:
+            results['auction_strategy'] = run_auction_strategy_analysis(
+                config, output_dir, tier_results=results.get('tiers'))
+        
         if run_auction:
             results['auction_flow'] = run_auction_flow_analysis(config, output_dir)
+        
+        if run_bids_round1:
+            results['bids_round1'] = run_bids_round1_analysis(
+                config, output_dir, 
+                tier_results=results.get('tiers'),
+                scarcity_results=results.get('scarcity'),
+                shading_results=results.get('shading')
+            )
         
         # Generate combined PDF report
         if results:
             logger.info("Generating combined PDF report...")
             report_builder = ReportBuilder(config)
             report_path = report_builder.generate_report(
-        scarcity_results=results.get('scarcity'),
-        shading_results=results.get('shading'),
-        auction_results=results.get('auction_flow'),
-        output_path=output_dir / f"fantacalcio_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.pdf"
-    )
+                scarcity_results=results.get('scarcity'),
+                shading_results=results.get('shading'),
+                auction_results=results.get('auction_flow'),
+                tier_results=results.get('tiers'),
+                auction_strategy_results=results.get('auction_strategy'),
+                output_path=output_dir / f"fantacalcio_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.pdf"
+            )
             
             logger.success(f"Analysis complete! Combined report saved to: {report_path}")
             

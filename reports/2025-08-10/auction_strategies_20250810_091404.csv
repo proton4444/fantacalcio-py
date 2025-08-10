@@ -1,0 +1,384 @@
+player_name,role,tier,nomination_round,target_price,max_bid,strategy_type,confidence
+Kean,A,C,7,318.75,375.0,value,0.55
+Thuram,A,C,7,270.3,318.0,value,0.55
+David,A,C,7,236.29999999999998,278.0,value,0.55
+Gimenez,A,C,7,221.85,261.0,value,0.55
+De Ketelaere,A,C,7,144.5,170.0,value,0.55
+Dia,A,C,7,124.95,147.0,value,0.55
+Immobile,A,C,7,119.0,140.0,value,0.55
+Krstovic,A,C,7,117.3,138.0,value,0.55
+Lang,A,C,7,79.89999999999999,94.0,value,0.55
+Zapata D.,A,C,7,68.0,80.0,value,0.55
+Pellegrino M.,A,C,7,51.85,61.0,value,0.55
+Kuhn,A,C,7,45.05,53.0,value,0.55
+Gonzalez N.,A,C,7,30.599999999999998,36.0,value,0.55
+Nzola,A,C,7,23.8,28.0,value,0.55
+Cambiaghi,A,C,7,22.099999999999998,26.0,value,0.55
+Cutrone,A,C,7,21.25,25.0,value,0.55
+Dominguez B.,A,C,7,20.4,24.0,value,0.55
+Ngonge,A,C,7,20.4,24.0,value,0.55
+Aboukhlal,A,C,7,20.4,24.0,value,0.55
+Camarda,A,C,7,18.7,22.0,value,0.55
+De Luca,A,C,7,18.7,22.0,value,0.55
+Sulemana K.,A,C,7,17.0,20.0,value,0.55
+Tourè E.,A,C,7,13.6,16.0,value,0.55
+Addai,A,C,7,13.6,16.0,value,0.55
+Bonny,A,C,7,12.75,15.0,value,0.55
+Mosquera,A,C,7,11.9,14.0,value,0.55
+Rodriguez Je.,A,C,7,11.9,14.0,value,0.55
+Beltran L.,A,C,7,11.049999999999999,13.0,value,0.55
+Lind,A,C,7,9.35,11.0,value,0.55
+Borrelli,A,C,7,8.5,10.0,value,0.55
+Rocha Livramento,A,C,7,6.8,8.0,value,0.55
+Cancellieri,A,C,7,5.1,6.0,value,0.55
+McTominay,C,C,7,170.85,201.0,value,0.55
+De Bruyne,C,C,7,124.95,147.0,value,0.55
+Conceicao,C,C,7,77.35,91.0,value,0.55
+Thuram K.,C,C,7,55.25,65.0,value,0.55
+Ederson D.S.,C,C,7,49.3,58.0,value,0.55
+Frattesi,C,C,7,45.9,54.0,value,0.55
+Neres,C,C,7,36.55,43.0,value,0.55
+Koopmeiners,C,C,7,34.0,40.0,value,0.55
+Modric,C,C,7,34.0,40.0,value,0.55
+Jashari,C,C,7,33.15,39.0,value,0.55
+Fofana Y.,C,C,7,31.45,37.0,value,0.55
+De Roon,C,C,7,28.9,34.0,value,0.55
+Mandragora,C,C,7,28.05,33.0,value,0.55
+Sohm,C,C,7,28.05,33.0,value,0.55
+Dele-Bashiru,C,C,7,28.05,33.0,value,0.55
+Mkhitaryan,C,C,7,25.5,30.0,value,0.55
+Pasalic,C,C,7,23.8,28.0,value,0.55
+Vazquez,C,C,7,22.95,27.0,value,0.55
+Ricci S.,C,C,7,22.95,27.0,value,0.55
+Folorunsho,C,C,7,22.95,27.0,value,0.55
+Malinovskyi,C,C,7,21.25,25.0,value,0.55
+Pierotti,C,C,7,17.0,20.0,value,0.55
+El Shaarawy,C,C,7,16.15,19.0,value,0.55
+Fabbian,C,C,7,14.45,17.0,value,0.55
+Loftus-Cheek,C,C,7,13.6,16.0,value,0.55
+Atta,C,C,7,13.6,16.0,value,0.55
+Ellertsson,C,C,7,12.75,15.0,value,0.55
+Luis Henrique,C,C,7,11.9,14.0,value,0.55
+Karlstrom,C,C,7,11.9,14.0,value,0.55
+Boloca,C,C,7,11.049999999999999,13.0,value,0.55
+Volpato,C,C,7,11.049999999999999,13.0,value,0.55
+Thorsby,C,C,7,10.2,12.0,value,0.55
+Serdar,C,C,7,10.2,12.0,value,0.55
+Tourè I.,C,C,7,9.35,11.0,value,0.55
+Tameze,C,C,7,9.35,11.0,value,0.55
+Zalewski,C,C,7,8.5,10.0,value,0.55
+Aebischer,C,C,7,7.6499999999999995,9.0,value,0.55
+Asllani,C,C,7,7.6499999999999995,9.0,value,0.55
+Rafia,C,C,7,6.8,8.0,value,0.55
+Angelino,D,C,7,50.15,59.0,value,0.55
+Tavares N.,D,C,7,41.65,49.0,value,0.55
+Buongiorno,D,C,7,37.4,44.0,value,0.55
+Dodò,D,C,7,37.4,44.0,value,0.55
+Hien,D,C,7,34.0,40.0,value,0.55
+Solet,D,C,7,31.45,37.0,value,0.55
+Martin,D,C,7,27.2,32.0,value,0.55
+Mancini,D,C,7,25.5,30.0,value,0.55
+Beukema,D,C,7,21.25,25.0,value,0.55
+Bisseck,D,C,7,20.4,24.0,value,0.55
+Kalulu,D,C,7,20.4,24.0,value,0.55
+Biraghi,D,C,7,19.55,23.0,value,0.55
+Kossounou,D,C,7,18.7,22.0,value,0.55
+Romagnoli,D,C,7,18.7,22.0,value,0.55
+Mina,D,C,7,17.849999999999998,21.0,value,0.55
+Pavlovic,D,C,7,17.849999999999998,21.0,value,0.55
+Baschirotto,D,C,7,15.299999999999999,18.0,value,0.55
+Celik,D,C,7,15.299999999999999,18.0,value,0.55
+Jimenez A.,D,C,7,15.299999999999999,18.0,value,0.55
+Kelly L.,D,C,7,14.45,17.0,value,0.55
+Marì,D,C,7,13.6,16.0,value,0.55
+Gabbia,D,C,7,13.6,16.0,value,0.55
+Djimsiti,D,C,7,12.75,15.0,value,0.55
+Kempf,D,C,7,12.75,15.0,value,0.55
+Ehizibue,D,C,7,12.75,15.0,value,0.55
+Floriani Mussolini,D,C,7,11.9,14.0,value,0.55
+Angori,D,C,7,11.9,14.0,value,0.55
+Rensch,D,C,7,11.9,14.0,value,0.55
+Darmian,D,C,7,11.9,14.0,value,0.55
+Muharemovic,D,C,7,10.2,12.0,value,0.55
+De Silvestri,D,C,7,10.2,12.0,value,0.55
+Bertola,D,C,7,9.35,11.0,value,0.55
+Pongracic,D,C,7,9.35,11.0,value,0.55
+Sabelli,D,C,7,9.35,11.0,value,0.55
+Ceccherini,D,C,7,9.35,11.0,value,0.55
+Vojvoda,D,C,7,8.5,10.0,value,0.55
+Unai Nunez,D,C,7,8.5,10.0,value,0.55
+Obert,D,C,7,8.5,10.0,value,0.55
+Ndiaye,D,C,7,8.5,10.0,value,0.55
+Folino,D,C,7,7.6499999999999995,9.0,value,0.55
+Pedersen,D,C,7,7.6499999999999995,9.0,value,0.55
+Savona,D,C,7,7.6499999999999995,9.0,value,0.55
+Gigot,D,C,7,6.8,8.0,value,0.55
+Kouassi,D,C,7,6.8,8.0,value,0.55
+Caracciolo A.,D,C,7,6.8,8.0,value,0.55
+Bradaric,D,C,7,6.8,8.0,value,0.55
+Barbieri,D,C,7,6.8,8.0,value,0.55
+Zanoli,D,C,7,6.8,8.0,value,0.55
+Moreno Alb.,D,C,7,5.95,7.0,value,0.55
+Norton-Cuffy,D,C,7,5.95,7.0,value,0.55
+Balogh,D,C,7,5.95,7.0,value,0.55
+Kabasele,D,C,7,5.1,6.0,value,0.55
+Meret,P,C,7,78.2,92.0,value,0.55
+Sommer,P,C,7,76.5,90.0,value,0.55
+Di Gregorio,P,C,7,70.55,83.0,value,0.55
+Caprile,P,C,7,15.299999999999999,18.0,value,0.55
+Falcone,P,C,7,11.9,14.0,value,0.55
+Audero,P,C,7,10.2,12.0,value,0.55
+Ravaglia F.,P,C,7,7.6499999999999995,9.0,value,0.55
+Scuffet,P,C,7,4.25,5.0,value,0.55
+Martinez L.,A,C,8,323.0,380.0,value,0.55
+Dybala,A,C,8,214.2,252.0,value,0.55
+Castellanos,A,C,8,131.75,155.0,value,0.55
+Castro S.,A,C,8,119.0,140.0,value,0.55
+Scamacca,A,C,8,90.95,107.0,value,0.55
+Piccoli,A,C,8,76.5,90.0,value,0.55
+Colombo,A,C,8,37.4,44.0,value,0.55
+Vitinha O.,A,C,8,25.5,30.0,value,0.55
+Sarr A.,A,C,8,20.4,24.0,value,0.55
+Luvumbo,A,C,8,18.7,22.0,value,0.55
+Djuric,A,C,8,17.849999999999998,21.0,value,0.55
+Raspadori,A,C,8,17.0,20.0,value,0.55
+Dallinga,A,C,8,15.299999999999999,18.0,value,0.55
+Kilicsoy,A,C,8,10.2,12.0,value,0.55
+Almqvist,A,C,8,9.35,11.0,value,0.55
+Sanabria,A,C,8,8.5,10.0,value,0.55
+Noslin,A,C,8,7.6499999999999995,9.0,value,0.55
+Banda,A,C,8,6.8,8.0,value,0.55
+Brenner,A,C,8,6.8,8.0,value,0.55
+Orsolini,C,C,8,187.0,220.0,value,0.55
+Gudmundsson A.,C,C,8,150.45,177.0,value,0.55
+Calhanoglu,C,C,8,129.2,152.0,value,0.55
+Barella,C,C,8,49.3,58.0,value,0.55
+Politano,C,C,8,46.75,55.0,value,0.55
+Zambo Anguissa,C,C,8,45.9,54.0,value,0.55
+Tramoni M.,C,C,8,35.699999999999996,42.0,value,0.55
+Konè M.,C,C,8,34.85,41.0,value,0.55
+Fazzini,C,C,8,30.599999999999998,36.0,value,0.55
+Da Cunha,C,C,8,28.05,33.0,value,0.55
+Locatelli,C,C,8,27.2,32.0,value,0.55
+Carboni V.,C,C,8,24.65,29.0,value,0.55
+Caqueret,C,C,8,22.95,27.0,value,0.55
+Freuler,C,C,8,22.95,27.0,value,0.55
+McKennie,C,C,8,20.4,24.0,value,0.55
+Fagioli,C,C,8,20.4,24.0,value,0.55
+Helgason,C,C,8,20.4,24.0,value,0.55
+Thorstvedt,C,C,8,20.4,24.0,value,0.55
+Cristante,C,C,8,19.55,23.0,value,0.55
+Brescianini,C,C,8,19.55,23.0,value,0.55
+Ekkelenkamp,C,C,8,18.7,22.0,value,0.55
+Rovella,C,C,8,18.7,22.0,value,0.55
+Man,C,C,8,16.15,19.0,value,0.55
+Perrone,C,C,8,16.15,19.0,value,0.55
+Collocolo,C,C,8,16.15,19.0,value,0.55
+Messias,C,C,8,15.299999999999999,18.0,value,0.55
+Hernani,C,C,8,15.299999999999999,18.0,value,0.55
+Gaetano,C,C,8,13.6,16.0,value,0.55
+Fadera,C,C,8,13.6,16.0,value,0.55
+Harroui,C,C,8,11.9,14.0,value,0.55
+Konè I.,C,C,8,11.9,14.0,value,0.55
+Felici,C,C,8,11.049999999999999,13.0,value,0.55
+Pierret,C,C,8,10.2,12.0,value,0.55
+Piotrowski,C,C,8,10.2,12.0,value,0.55
+Deiola,C,C,8,9.35,11.0,value,0.55
+Mazzitelli,C,C,8,9.35,11.0,value,0.55
+Ghion,C,C,8,9.35,11.0,value,0.55
+Keita M.,C,C,8,8.5,10.0,value,0.55
+Bernede,C,C,8,8.5,10.0,value,0.55
+Kastanos,C,C,8,8.5,10.0,value,0.55
+Ordonez C.,C,C,8,7.6499999999999995,9.0,value,0.55
+Gineitis,C,C,8,7.6499999999999995,9.0,value,0.55
+Castagnetti,C,C,8,7.6499999999999995,9.0,value,0.55
+Venturino,C,C,8,7.6499999999999995,9.0,value,0.55
+Richardson,C,C,8,6.8,8.0,value,0.55
+Dumfries,D,C,8,85.0,100.0,value,0.55
+Bastoni,D,C,8,66.3,78.0,value,0.55
+Cambiaso,D,C,8,53.55,63.0,value,0.55
+Di Lorenzo,D,C,8,48.449999999999996,57.0,value,0.55
+Zappacosta,D,C,8,45.05,53.0,value,0.55
+Wesley,D,C,8,44.199999999999996,52.0,value,0.55
+Bremer,D,C,8,37.4,44.0,value,0.55
+Rrahmani,D,C,8,27.2,32.0,value,0.55
+Carlos Augusto,D,C,8,26.349999999999998,31.0,value,0.55
+Valeri,D,C,8,22.95,27.0,value,0.55
+N'Dicka,D,C,8,22.099999999999998,26.0,value,0.55
+Acerbi,D,C,8,22.099999999999998,26.0,value,0.55
+Miranda J.,D,C,8,20.4,24.0,value,0.55
+Scalvini,D,C,8,20.4,24.0,value,0.55
+Lucumì,D,C,8,17.849999999999998,21.0,value,0.55
+Holm,D,C,8,17.849999999999998,21.0,value,0.55
+Vasquez,D,C,8,17.0,20.0,value,0.55
+Gila,D,C,8,17.0,20.0,value,0.55
+Gaspar K.,D,C,8,16.15,19.0,value,0.55
+Kamara H.,D,C,8,16.15,19.0,value,0.55
+Vitik,D,C,8,15.299999999999999,18.0,value,0.55
+Joao Mario,D,C,8,15.299999999999999,18.0,value,0.55
+Spinazzola,D,C,8,15.299999999999999,18.0,value,0.55
+De Winter,D,C,8,14.45,17.0,value,0.55
+Tchatchoua,D,C,8,14.45,17.0,value,0.55
+Kolasinac,D,C,8,14.45,17.0,value,0.55
+Comuzzo,D,C,8,14.45,17.0,value,0.55
+Doig,D,C,8,14.45,17.0,value,0.55
+Coco,D,C,8,13.6,16.0,value,0.55
+Ismajli,D,C,8,13.6,16.0,value,0.55
+Leoni,D,C,8,13.6,16.0,value,0.55
+Gallo,D,C,8,12.75,15.0,value,0.55
+Gatti,D,C,8,11.049999999999999,13.0,value,0.55
+Maripan,D,C,8,11.049999999999999,13.0,value,0.55
+Valle,D,C,8,11.049999999999999,13.0,value,0.55
+Pezzella Giu.,D,C,8,11.049999999999999,13.0,value,0.55
+Kristensen T.,D,C,8,10.2,12.0,value,0.55
+Ahanor,D,C,8,9.35,11.0,value,0.55
+Walukiewicz,D,C,8,9.35,11.0,value,0.55
+Dossena,D,C,8,9.35,11.0,value,0.55
+Ghilardi,D,C,8,8.5,10.0,value,0.55
+Valenti,D,C,8,7.6499999999999995,9.0,value,0.55
+Salah-Eddine,D,C,8,7.6499999999999995,9.0,value,0.55
+Marianucci,D,C,8,7.6499999999999995,9.0,value,0.55
+Casale,D,C,8,6.8,8.0,value,0.55
+Goldaniga,D,C,8,6.8,8.0,value,0.55
+Van Der Brempt,D,C,8,6.8,8.0,value,0.55
+Thiaw,D,C,8,6.8,8.0,value,0.55
+Palestra,D,C,8,6.8,8.0,value,0.55
+Calabresi,D,C,8,6.8,8.0,value,0.55
+Hermoso,D,C,8,6.8,8.0,value,0.55
+Masina,D,C,8,6.8,8.0,value,0.55
+Patric,D,C,8,5.95,7.0,value,0.55
+Svilar,P,C,8,69.7,82.0,value,0.55
+Maignan,P,C,8,68.85,81.0,value,0.55
+Carnesecchi,P,C,8,60.35,71.0,value,0.55
+Provedel,P,C,8,45.9,54.0,value,0.55
+Skorupski,P,C,8,41.65,49.0,value,0.55
+Butez,P,C,8,27.2,32.0,value,0.55
+Leali,P,C,8,23.8,28.0,value,0.55
+Okoye,P,C,8,14.45,17.0,value,0.55
+Suzuki,P,C,8,12.75,15.0,value,0.55
+Milinkovic-Savic V.,P,C,8,9.35,11.0,value,0.55
+Montipò,P,C,8,8.5,10.0,value,0.55
+Sava,P,C,8,6.8,8.0,value,0.55
+Semper,P,C,8,5.95,7.0,value,0.55
+Lukaku,A,C,9,289.84999999999997,341.0,value,0.55
+Leao,A,C,9,205.7,242.0,value,0.55
+Yildiz,A,C,9,199.75,235.0,value,0.55
+Lookman,A,C,9,150.45,177.0,value,0.55
+Dovbyk,A,C,9,127.5,150.0,value,0.55
+Berardi,A,C,9,123.25,145.0,value,0.55
+Ferguson E.,A,C,9,116.45,137.0,value,0.55
+Soulè,A,C,9,106.25,125.0,value,0.55
+Vlahovic,A,C,9,84.14999999999999,99.0,value,0.55
+Diao,A,C,9,80.75,95.0,value,0.55
+Pinamonti,A,C,9,62.05,73.0,value,0.55
+Dzeko,A,C,9,60.35,71.0,value,0.55
+Lucca,A,C,9,51.0,60.0,value,0.55
+Adams C.,A,C,9,49.3,58.0,value,0.55
+Laurientè,A,C,9,43.35,51.0,value,0.55
+Pedro,A,C,9,38.25,45.0,value,0.55
+Davis K.,A,C,9,23.8,28.0,value,0.55
+Douvikas,A,C,9,13.6,16.0,value,0.55
+Moreo,A,C,9,12.75,15.0,value,0.55
+Johnsen,A,C,9,11.049999999999999,13.0,value,0.55
+Esposito F.P.,A,C,9,11.049999999999999,13.0,value,0.55
+Bravo,A,C,9,10.2,12.0,value,0.55
+Sanchez,A,C,9,8.5,10.0,value,0.55
+Mulattieri,A,C,9,8.5,10.0,value,0.55
+Pierini,A,C,9,7.6499999999999995,9.0,value,0.55
+N'Dri,A,C,9,6.8,8.0,value,0.55
+Okereke,A,C,9,5.95,7.0,value,0.55
+Karlsson,A,C,9,5.95,7.0,value,0.55
+Pulisic,C,C,9,183.6,216.0,value,0.55
+Zaccagni,C,C,9,172.54999999999998,203.0,value,0.55
+Paz N.,C,C,9,101.14999999999999,119.0,value,0.55
+Odgaard,C,C,9,66.3,78.0,value,0.55
+Vlasic,C,C,9,39.1,46.0,value,0.55
+Isaksen,C,C,9,38.25,45.0,value,0.55
+Saelemaekers,C,C,9,32.3,38.0,value,0.55
+Vandeputte,C,C,9,30.599999999999998,36.0,value,0.55
+Samardzic,C,C,9,29.75,35.0,value,0.55
+Bernabè,C,C,9,29.75,35.0,value,0.55
+Gronbaek,C,C,9,28.9,34.0,value,0.55
+Ferguson,C,C,9,26.349999999999998,31.0,value,0.55
+Casadei,C,C,9,25.5,30.0,value,0.55
+El Aynaoui,C,C,9,24.65,29.0,value,0.55
+Pellegrini Lo.,C,C,9,23.8,28.0,value,0.55
+Bernardeschi,C,C,9,22.95,27.0,value,0.55
+Baturina,C,C,9,22.099999999999998,26.0,value,0.55
+Maldini,C,C,9,21.25,25.0,value,0.55
+Guendouzi,C,C,9,20.4,24.0,value,0.55
+Sucic P.,C,C,9,20.4,24.0,value,0.55
+Lovric,C,C,9,20.4,24.0,value,0.55
+Ondrejka,C,C,9,19.55,23.0,value,0.55
+Anjorin,C,C,9,19.55,23.0,value,0.55
+Lobotka,C,C,9,19.55,23.0,value,0.55
+Suslov,C,C,9,19.55,23.0,value,0.55
+Pobega,C,C,9,18.7,22.0,value,0.55
+Frendrup,C,C,9,17.849999999999998,21.0,value,0.55
+Tete Morente,C,C,9,16.15,19.0,value,0.55
+Stanciu,C,C,9,16.15,19.0,value,0.55
+Baldanzi,C,C,9,15.299999999999999,18.0,value,0.55
+Pisilli,C,C,9,12.75,15.0,value,0.55
+Coulibaly L.,C,C,9,11.9,14.0,value,0.55
+Vecino,C,C,9,11.9,14.0,value,0.55
+Adopo,C,C,9,11.9,14.0,value,0.55
+Gilmour,C,C,9,10.2,12.0,value,0.55
+Ilic,C,C,9,10.2,12.0,value,0.55
+Zielinski,C,C,9,10.2,12.0,value,0.55
+Ramadani,C,C,9,9.35,11.0,value,0.55
+Chukwueze,C,C,9,9.35,11.0,value,0.55
+Masini,C,C,9,8.5,10.0,value,0.55
+Sulemana I.,C,C,9,8.5,10.0,value,0.55
+Payero,C,C,9,8.5,10.0,value,0.55
+Valoti,C,C,9,7.6499999999999995,9.0,value,0.55
+Musah,C,C,9,7.6499999999999995,9.0,value,0.55
+Piccinini G.,C,C,9,7.6499999999999995,9.0,value,0.55
+Miretti,C,C,9,7.6499999999999995,9.0,value,0.55
+Sergi Roberto,C,C,9,7.6499999999999995,9.0,value,0.55
+Grassi,C,C,9,7.6499999999999995,9.0,value,0.55
+Marin M.,C,C,9,6.8,8.0,value,0.55
+Prati,C,C,9,6.8,8.0,value,0.55
+Dimarco,D,C,9,81.6,96.0,value,0.55
+Gosens,D,C,9,73.1,86.0,value,0.55
+Zortea,D,C,9,57.8,68.0,value,0.55
+Bellanova,D,C,9,44.199999999999996,52.0,value,0.55
+Estupinan,D,C,9,31.45,37.0,value,0.55
+Olivera,D,C,9,22.099999999999998,26.0,value,0.55
+Tomori,D,C,9,21.25,25.0,value,0.55
+Pavard,D,C,9,19.55,23.0,value,0.55
+Marusic,D,C,9,19.55,23.0,value,0.55
+Delprato,D,C,9,17.849999999999998,21.0,value,0.55
+De Vrij,D,C,9,17.0,20.0,value,0.55
+Lazaro,D,C,9,16.15,19.0,value,0.55
+Luperto,D,C,9,15.299999999999999,18.0,value,0.55
+Ranieri L.,D,C,9,13.6,16.0,value,0.55
+Cuadrado,D,C,9,11.049999999999999,13.0,value,0.55
+Zappa,D,C,9,11.049999999999999,13.0,value,0.55
+Ostigard,D,C,9,11.049999999999999,13.0,value,0.55
+Ramon,D,C,9,11.049999999999999,13.0,value,0.55
+Posch,D,C,9,10.2,12.0,value,0.55
+Lykogiannis,D,C,9,10.2,12.0,value,0.55
+Parisi,D,C,9,9.35,11.0,value,0.55
+Circati,D,C,9,9.35,11.0,value,0.55
+Lazzari,D,C,9,9.35,11.0,value,0.55
+Cabal,D,C,9,8.5,10.0,value,0.55
+Goglichidze,D,C,9,8.5,10.0,value,0.55
+Viti,D,C,9,7.6499999999999995,9.0,value,0.55
+Romagna,D,C,9,7.6499999999999995,9.0,value,0.55
+Valentini N.,D,C,9,7.6499999999999995,9.0,value,0.55
+Frese,D,C,9,7.6499999999999995,9.0,value,0.55
+Ebosse,D,C,9,6.8,8.0,value,0.55
+Pellegrini Lu.,D,C,9,6.8,8.0,value,0.55
+Odenthal,D,C,9,6.8,8.0,value,0.55
+Zemura,D,C,9,6.8,8.0,value,0.55
+Mateus Lusuardi,D,C,9,5.95,7.0,value,0.55
+Idrissi R.,D,C,9,5.95,7.0,value,0.55
+Azzi,D,C,9,5.95,7.0,value,0.55
+Giannetti L.,D,C,9,5.95,7.0,value,0.55
+Hysaj,D,C,9,5.1,6.0,value,0.55
+Rui Modesto,D,C,9,5.1,6.0,value,0.55
+De Gea,P,C,9,52.699999999999996,62.0,value,0.55
+Israel,P,C,9,25.5,30.0,value,0.55
+Turati,P,C,9,11.049999999999999,13.0,value,0.55
+Mandas,P,C,9,10.2,12.0,value,0.55
+Martinez Jo.,P,C,9,4.25,5.0,value,0.55

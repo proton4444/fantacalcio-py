@@ -323,6 +323,7 @@ class ScarcitySimulation:
             return {}
         
         ev_scores = [pev.ev_score for pev in self.player_evs]
+        top_tier_count = len([pev for pev in self.player_evs if pev.percentile_rank >= 0.9])
         
         return {
             'total_players': len(self.player_evs),
@@ -330,5 +331,6 @@ class ScarcitySimulation:
             'median_ev_score': np.median(ev_scores),
             'top_ev_score': np.max(ev_scores),
             'positions_analyzed': len(self.position_scarcity),
-            'high_value_players': len([pev for pev in self.player_evs if pev.percentile_rank >= 0.9])
+            'high_value_players': top_tier_count,
+            'top_tier_count': top_tier_count
         }

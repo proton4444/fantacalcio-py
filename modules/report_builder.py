@@ -44,6 +44,8 @@ class ReportBuilder:
                        scarcity_results: Optional[Dict[str, Any]] = None,
                        shading_results: Optional[Dict[str, Any]] = None,
                        auction_results: Optional[Dict[str, Any]] = None,
+                       tier_results: Optional[Dict[str, Any]] = None,
+                       auction_strategy_results: Optional[Dict[str, Any]] = None,
                        output_path: Path = None) -> Path:
         """Generate comprehensive PDF report from all simulation results."""
         
@@ -58,7 +60,7 @@ class ReportBuilder:
             self._create_title_page(pdf)
             
             # Page 2: Executive summary
-            self._create_executive_summary(pdf, scarcity_results, shading_results, auction_results)
+            self._create_executive_summary(pdf, scarcity_results, shading_results, auction_results, tier_results, auction_strategy_results)
             
             # Pages 3+: Scarcity analysis
             if scarcity_results:
@@ -67,6 +69,14 @@ class ReportBuilder:
             # Pages: Shading analysis
             if shading_results:
                 self._add_shading_section(pdf, shading_results)
+            
+            # Pages: Tier analysis
+            if tier_results:
+                self._add_tier_section(pdf, tier_results)
+            
+            # Pages: Auction strategy analysis
+            if auction_strategy_results:
+                self._add_auction_strategy_section(pdf, auction_strategy_results)
             
             # Pages: Auction flow analysis
             if auction_results:
@@ -140,7 +150,9 @@ class ReportBuilder:
     def _create_executive_summary(self, pdf: PdfPages, 
                                 scarcity_results: Optional[Dict] = None,
                                 shading_results: Optional[Dict] = None,
-                                auction_results: Optional[Dict] = None):
+                                auction_results: Optional[Dict] = None,
+                                tier_results: Optional[Dict] = None,
+                                auction_strategy_results: Optional[Dict] = None):
         """Create executive summary page."""
         fig, ax = plt.subplots(figsize=self.page_size)
         ax.axis('off')
@@ -175,6 +187,29 @@ class ReportBuilder:
 • Optimal lineup construction strategies identified"""
             
             ax.text(0.05, y_pos, shading_text, va='top', fontsize=self.body_fontsize,
+                   color=self.text_color)
+            y_pos -= 0.2
+        
+        # Tier summary
+        if tier_results and 'summary_stats' in tier_results:
+            stats = tier_results['summary_stats']
+            tier_text = f"""Tier Analysis:
+• Players Classified: {stats.get('total_players_classified', 'N/A')}
+• Elite / High / Medium: {stats.get('elite_players', 0)} / {stats.get('high_tier_players', 0)} / {stats.get('medium_tier_players', 0)}
+• Low / Bench: {stats.get('low_tier_players', 0)} / {stats.get('bench_players', 0)}"""
+            ax.text(0.05, y_pos, tier_text, va='top', fontsize=self.body_fontsize,
+                   color=self.text_color)
+            y_pos -= 0.2
+        
+        # Auction strategy summary
+        if auction_strategy_results and 'summary_stats' in auction_strategy_results:
+            stats = auction_strategy_results['summary_stats']
+            strat_text = f"""Auction Strategy:
+• Simulations Run: {stats.get('simulations_run', 'N/A')}
+• Avg Team Quality: {stats.get('average_team_quality', 0):.2f}
+• Avg Budget Utilization: {stats.get('average_budget_utilization', 0):.1%}
+• Targets (High+): {stats.get('high_priority_targets', 0)} / Total Targets: {stats.get('total_target_players', 0)}"""
+            ax.text(0.05, y_pos, strat_text, va='top', fontsize=self.body_fontsize,
                    color=self.text_color)
             y_pos -= 0.2
         
@@ -282,6 +317,83 @@ class ReportBuilder:
             for viz_path in results['visualizations']:
                 if Path(viz_path).exists():
                     self._add_image_page(pdf, viz_path, "Shading Analysis Visualization")
+    
+    def _add_tier_section(self, pdf: PdfPages, results: Dict[str, Any]):
+        """Add tier analysis section to the report."""
+        # Section title page
+        fig, ax = plt.subplots(figsize=self.page_size)
+        ax.axis('off')
+        
+        ax.text(0.5, 0.8, 'Tier Analysis', 
+                ha='center', va='center', fontsize=self.title_fontsize, 
+                fontweight='bold', color=self.accent_color)
+        
+        ax.text(0.5, 0.6, 'Player Classification and Tier Distribution',
+                ha='center', va='center', fontsize=self.header_fontsize,
+                color=self.text_color)
+        
+        # Add summary if available
+        if 'summary_stats' in results:
+            stats = results['summary_stats']
+            summary_text = f"""Classification Overview:
+• Total Players Classified: {stats.get('total_players_classified', 'N/A')}
+• Elite Tier: {stats.get('elite_players', 'N/A')}
+• High Tier: {stats.get('high_tier_players', 'N/A')}
+• Medium Tier: {stats.get('medium_tier_players', 'N/A')}
+• Low/Bench Tier: {stats.get('low_tier_players', 0) + stats.get('bench_players', 0)}"""
+            
+            ax.text(0.5, 0.4, summary_text, ha='center', va='center', 
+                   fontsize=self.body_fontsize, color=self.text_color,
+                   bbox=dict(boxstyle="round,pad=0.5", facecolor='lightyellow', alpha=0.3))
+        
+        ax.set_xlim(0, 1)
+        ax.set_ylim(0, 1)
+        pdf.savefig(fig, bbox_inches='tight')
+        plt.close(fig)
+        
+        # Add visualizations if available
+        if 'visualizations' in results:
+            for viz_path in results['visualizations']:
+                if Path(viz_path).exists():
+                    self._add_image_page(pdf, viz_path, "Tier Analysis Visualization")
+    
+    def _add_auction_strategy_section(self, pdf: PdfPages, results: Dict[str, Any]):
+        """Add auction strategy analysis section to the report."""
+        # Section title page
+        fig, ax = plt.subplots(figsize=self.page_size)
+        ax.axis('off')
+        
+        ax.text(0.5, 0.8, 'Auction Strategy Analysis', 
+                ha='center', va='center', fontsize=self.title_fontsize, 
+                fontweight='bold', color=self.secondary_color)
+        
+        ax.text(0.5, 0.6, 'Strategic Bidding and Player Targeting',
+                ha='center', va='center', fontsize=self.header_fontsize,
+                color=self.text_color)
+        
+        # Add summary if available
+        if 'summary_stats' in results:
+            stats = results['summary_stats']
+            summary_text = f"""Strategy Overview:
+• Simulations Run: {stats.get('simulations_run', 'N/A')}
+• Player Targets: {stats.get('player_targets', 'N/A')}
+• Budget Allocation: {stats.get('budget_allocation', 'N/A')}
+• Strategy Confidence: {stats.get('avg_confidence', 0):.1%}"""
+            
+            ax.text(0.5, 0.4, summary_text, ha='center', va='center', 
+                   fontsize=self.body_fontsize, color=self.text_color,
+                   bbox=dict(boxstyle="round,pad=0.5", facecolor='lightcyan', alpha=0.3))
+        
+        ax.set_xlim(0, 1)
+        ax.set_ylim(0, 1)
+        pdf.savefig(fig, bbox_inches='tight')
+        plt.close(fig)
+        
+        # Add visualizations if available
+        if 'visualizations' in results:
+            for viz_path in results['visualizations']:
+                if Path(viz_path).exists():
+                    self._add_image_page(pdf, viz_path, "Auction Strategy Visualization")
     
     def _add_auction_section(self, pdf: PdfPages, results: Dict[str, Any]):
         """Add auction flow analysis section to the report."""

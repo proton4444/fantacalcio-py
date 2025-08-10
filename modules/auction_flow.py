@@ -54,7 +54,7 @@ class AuctionFlowAnalysis:
         self.budget_allocations: List[BudgetAllocation] = []
         
         # Auction parameters
-        self.total_budget = config.get('total_budget', 500)
+        self.total_budget = config.get('budget_cap', config.get('total_budget', 400))
         self.num_teams = config.get('num_teams', 8)
         self.roster_size = config.get('roster_size', 25)
         self.starting_lineup = config.get('starting_lineup', {
@@ -63,7 +63,7 @@ class AuctionFlowAnalysis:
         
         # Strategy parameters
         self.tier_thresholds = config.get('tier_thresholds', {
-            'S': 0.90, 'A': 0.75, 'B': 0.50, 'C': 0.25
+            'S': 0.90, 'A': 0.75, 'B': 0.50, 'C': 0.20
         })
         self.nomination_rounds = config.get('nomination_rounds', 10)
         
@@ -129,7 +129,7 @@ class AuctionFlowAnalysis:
             # Calculate percentiles for this position
             price_percentiles = role_players['price'].rank(pct=True)
             
-            # Assign tiers based on percentiles
+            # Assign tiers based on percentiles with more balanced distribution
             tier_conditions = [
                 (price_percentiles >= self.tier_thresholds['S'], 'S'),
                 (price_percentiles >= self.tier_thresholds['A'], 'A'),
@@ -152,9 +152,25 @@ class AuctionFlowAnalysis:
         
         self.budget_allocations = []
         
-        # Calculate market values by position and tier
+        # Calculate budget allocation that properly distributes the full budget
+        total_starting_positions = sum(self.starting_lineup.values())  # 11 positions
+        
+        # First, calculate role-based budget allocation
+        role_budgets = {}
+        for role, positions in self.starting_lineup.items():
+            role_budgets[role] = (positions / total_starting_positions) * self.total_budget
+        
         for role in self.players_df['role'].unique():
             role_data = self.players_df[self.players_df['role'] == role]
+            
+            # Get all tiers available for this role
+            available_tiers = role_data['tier'].unique()
+            
+            # Tier weights that properly distribute budget across all tiers
+            tier_weights = {'S': 0.35, 'A': 0.25, 'B': 0.20, 'C': 0.15, 'D': 0.05}
+            
+            # Calculate total weight for available tiers to normalize
+            total_tier_weight = sum(tier_weights.get(tier, 0.01) for tier in available_tiers)
             
             for tier in ['S', 'A', 'B', 'C', 'D']:
                 tier_data = role_data[role_data['tier'] == tier]
@@ -166,13 +182,11 @@ class AuctionFlowAnalysis:
                 avg_price = tier_data['price'].mean()
                 player_count = len(tier_data)
                 
-                # Estimate how much budget should be allocated to this tier/position
-                # Based on starting lineup requirements and tier importance
-                starting_need = self.starting_lineup.get(role, 0)
-                tier_weight = {'S': 0.4, 'A': 0.3, 'B': 0.2, 'C': 0.08, 'D': 0.02}.get(tier, 0.02)
-                
-                allocation_pct = (starting_need / sum(self.starting_lineup.values())) * tier_weight
-                target_spend = self.total_budget * allocation_pct
+                # Calculate normalized tier weight and target spend
+                tier_weight = tier_weights.get(tier, 0.01)
+                normalized_tier_weight = tier_weight / total_tier_weight
+                target_spend = role_budgets.get(role, 0) * normalized_tier_weight
+                allocation_pct = target_spend / self.total_budget
                 
                 allocation = BudgetAllocation(
                     role=role,
@@ -193,10 +207,10 @@ class AuctionFlowAnalysis:
         
         self.auction_strategies = []
         
-        # Focus on top tiers (S and A) for strategic recommendations
+        # Focus on top tiers for strategic recommendations (including C tier)
         strategic_players = self.players_df[
-            (self.players_df['tier'].isin(['S', 'A'])) & 
-            (self.players_df['price'] >= 10)  # Focus on significant investments
+            (self.players_df['tier'].isin(['S', 'A', 'B', 'C'])) & 
+            (self.players_df['price'] >= 5)  # Lower threshold to include more players
         ].copy()
         
         # Sort by price within each position
@@ -212,10 +226,18 @@ class AuctionFlowAnalysis:
                 nomination_round = np.random.randint(3, 7)
                 strategy_type = 'patient' if player['price'] > 25 else 'value'
                 confidence = 0.75
-            else:
-                nomination_round = np.random.randint(5, self.nomination_rounds)
+            elif player['tier'] == 'B':
+                nomination_round = np.random.randint(5, 10)
                 strategy_type = 'value'
-                confidence = 0.6
+                confidence = 0.65
+            elif player['tier'] == 'C':
+                nomination_round = np.random.randint(7, self.nomination_rounds)
+                strategy_type = 'value'
+                confidence = 0.55
+            else:
+                nomination_round = np.random.randint(8, self.nomination_rounds)
+                strategy_type = 'value'
+                confidence = 0.5
             
             # Calculate target and max bid
             base_price = player['price']

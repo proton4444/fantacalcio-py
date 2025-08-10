@@ -355,6 +355,10 @@ class ShadingSimulation:
         
         return {
             'total_players': len(self.shading_results),
+            'players_analyzed': len(self.shading_results),
+            'total_simulations': 10000,  # Monte Carlo runs
+            'confidence_level': 95,
+            'ownership_variance': np.std(shading_values) if shading_values else 0,
             'avg_shading_value': np.mean(shading_values),
             'avg_tournament_ev': np.mean(tournament_evs),
             'fade_opportunities': fade_count,

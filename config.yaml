@@ -3,13 +3,14 @@ seed: 333
 output_dir: reports
 excel_path: data/Quotazioni_Fantacalcio_Stagione_2025_26.xlsx   # Path to your updated weekly Excel
 data_path: data/Quotazioni_Fantacalcio_Stagione_2025_26.xlsx
-tier_column: "FVM"
+tier_column: "Quotazione"
 
 # Tier quantiles for player classification
 tier_quantiles:
-  B: 0.20
-  A: 0.65
-  S: 0.920
+  elite: 0.90
+  high: 0.65
+  medium: 0.25
+  low: 0.20
 
 # ==== Modules ====
 primary_module: "4-2-3-1"
@@ -65,7 +66,8 @@ supply:
 
 # ==== Simulation Settings ====
 num_teams: 8
-total_budget: 500
+total_budget: 400
+budget_cap: 400
 num_simulations: 1000
 
 # ==== Opponent Modeling ====
@@ -94,6 +96,20 @@ auction_flow_analysis:
     - aggressive
     - patient
     - value
+
+# ==== Bids Round 1 Settings ====
+bids_round1:
+  enabled: true
+  reserve_credits: 80
+  filter_to_targets: true  # Only generate recommendations for formation-required players
+  target_multiplier: 2.5  # How many players per position to target (e.g., 2.5x formation requirements)
+  max_total_budget: 2000  # Maximum total recommended budget
+
+# ==== Audit Settings ====
+audit:
+  strict: true
+  include_excel_hash: true
+  include_git_commit: true
 
 # ==== Report Settings ====
 report_title: "Fantacalcio Simulation Suite Report"

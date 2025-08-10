@@ -1,0 +1,34 @@
+player_name,role,tier,base_value,shading_factor,scarcity_weight,recommended_bid,max_bid,priority,confidence
+Martinez L.,A,Elite,380.0,0.0,0.0,381,160,High,0.9
+Kean,A,Elite,375.0,0.0,0.0,375,160,High,0.9
+Lukaku,A,Elite,341.0,0.0,0.0,341,160,High,0.9
+Thuram,A,Elite,318.0,0.0,0.0,311,160,High,0.9
+David,A,Elite,278.0,0.0,0.0,271,160,High,0.9
+Gimenez,A,Elite,261.0,0.0,0.0,261,160,High,0.9
+Orsolini,C,Elite,220.0,0.0,0.0,220,160,High,0.9
+Pulisic,C,Elite,216.0,0.0,0.0,211,160,High,0.9
+Zaccagni,C,Elite,203.0,0.0,0.0,203,160,High,0.9
+McTominay,C,Elite,201.0,0.0,0.0,201,160,High,0.9
+Gudmundsson A.,C,Elite,177.0,0.0,0.0,171,160,High,0.9
+Calhanoglu,C,Elite,152.0,0.0,0.0,152,160,High,0.9
+De Bruyne,C,Elite,147.0,0.0,0.0,141,160,High,0.9
+Paz N.,C,Elite,119.0,0.0,0.0,119,142,High,0.9
+Dumfries,D,Elite,100.0,0.0,0.0,101,121,High,0.9
+Dimarco,D,Elite,96.0,0.0,0.0,96,115,High,0.9
+Sommer,P,Elite,90.0,0.0,0.0,91,109,High,0.9
+Meret,P,Elite,92.0,0.0,0.0,91,109,High,0.9
+Conceicao,C,Elite,91.0,0.0,0.0,91,109,High,0.9
+Gosens,D,Elite,86.0,0.0,0.0,86,103,High,0.9
+Di Gregorio,P,Elite,83.0,0.0,0.0,81,97,High,0.9
+Bastoni,D,Elite,78.0,0.0,0.0,71,85,High,0.9
+Odgaard,C,Elite,78.0,0.0,0.0,71,85,High,0.9
+Zortea,D,Elite,68.0,0.0,0.0,61,73,High,0.9
+Cambiaso,D,Elite,63.0,0.0,0.0,61,73,High,0.9
+Thuram K.,C,Elite,65.0,0.0,0.0,61,73,High,0.9
+Ederson D.S.,C,Elite,58.0,0.0,0.0,58,69,High,0.9
+Angelino,D,Elite,59.0,0.0,0.0,51,61,High,0.9
+Zambo Anguissa,C,Elite,54.0,0.0,0.0,51,61,High,0.9
+Politano,C,Elite,55.0,0.0,0.0,51,61,High,0.9
+Di Lorenzo,D,High,57.0,0.0,0.0,57,68,Medium,0.8
+Zappacosta,D,High,53.0,0.0,0.0,51,61,Medium,0.8
+Barella,C,High,58.0,0.0,0.0,51,61,Medium,0.8

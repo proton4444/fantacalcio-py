@@ -1,0 +1,515 @@
+player_name,role,tier,base_value,shading_factor,scarcity_weight,recommended_bid,max_bid,priority,confidence
+Martinez L.,A,Elite,380.0,0.0,0.0,381,160,High,0.9
+Kean,A,Elite,375.0,0.0,0.0,371,160,High,0.9
+Lukaku,A,Elite,341.0,0.0,0.0,341,160,High,0.9
+Thuram,A,Elite,318.0,0.0,0.0,318,160,High,0.9
+David,A,Elite,278.0,0.0,0.0,271,160,High,0.9
+Gimenez,A,Elite,261.0,0.0,0.0,261,160,High,0.9
+Dybala,A,Elite,252.0,0.0,0.0,251,160,High,0.9
+Leao,A,Elite,242.0,0.0,0.0,241,160,High,0.9
+Yildiz,A,Elite,235.0,0.0,0.0,231,160,High,0.9
+Orsolini,C,Elite,220.0,0.0,0.0,220,160,High,0.9
+Pulisic,C,Elite,216.0,0.0,0.0,211,160,High,0.9
+Zaccagni,C,Elite,203.0,0.0,0.0,201,160,High,0.9
+McTominay,C,Elite,201.0,0.0,0.0,201,160,High,0.9
+Lookman,A,Elite,177.0,0.0,0.0,177,160,High,0.9
+Gudmundsson A.,C,Elite,177.0,0.0,0.0,171,160,High,0.9
+De Ketelaere,A,Elite,170.0,0.0,0.0,171,160,High,0.9
+Calhanoglu,C,Elite,152.0,0.0,0.0,152,160,High,0.9
+Castellanos,A,Elite,155.0,0.0,0.0,151,160,High,0.9
+Dovbyk,A,Elite,150.0,0.0,0.0,150,160,High,0.9
+De Bruyne,C,Elite,147.0,0.0,0.0,141,160,High,0.9
+Berardi,A,Elite,145.0,0.0,0.0,141,160,High,0.9
+Dia,A,Elite,147.0,0.0,0.0,141,160,High,0.9
+Castro S.,A,Elite,140.0,0.0,0.0,141,160,High,0.9
+Immobile,A,Elite,140.0,0.0,0.0,140,160,High,0.9
+Krstovic,A,Elite,138.0,0.0,0.0,138,160,High,0.9
+Ferguson E.,A,Elite,137.0,0.0,0.0,137,160,High,0.9
+Soulè,A,Elite,125.0,0.0,0.0,121,145,High,0.9
+Paz N.,C,Elite,119.0,0.0,0.0,111,133,High,0.9
+Dumfries,D,Elite,100.0,0.0,0.0,101,121,High,0.9
+Scamacca,A,Elite,107.0,0.0,0.0,101,121,High,0.9
+Dimarco,D,Elite,96.0,0.0,0.0,96,115,High,0.9
+Diao,A,Elite,95.0,0.0,0.0,95,114,High,0.9
+Lang,A,Elite,94.0,0.0,0.0,94,112,High,0.9
+Sommer,P,Elite,90.0,0.0,0.0,91,109,High,0.9
+Meret,P,Elite,92.0,0.0,0.0,91,109,High,0.9
+Conceicao,C,Elite,91.0,0.0,0.0,91,109,High,0.9
+Vlahovic,A,Elite,99.0,0.0,0.0,91,109,High,0.9
+Piccoli,A,Elite,90.0,0.0,0.0,91,109,High,0.9
+Svilar,P,Elite,82.0,0.0,0.0,82,98,High,0.9
+Di Gregorio,P,Elite,83.0,0.0,0.0,81,97,High,0.9
+Maignan,P,Elite,81.0,0.0,0.0,81,97,High,0.9
+Gosens,D,Elite,86.0,0.0,0.0,81,97,High,0.9
+Zapata D.,A,Elite,80.0,0.0,0.0,81,97,High,0.9
+Odgaard,C,Elite,78.0,0.0,0.0,78,93,High,0.9
+Bastoni,D,Elite,78.0,0.0,0.0,71,85,High,0.9
+Pinamonti,A,Elite,73.0,0.0,0.0,71,85,High,0.9
+Dzeko,A,Elite,71.0,0.0,0.0,71,85,High,0.9
+Thuram K.,C,Elite,65.0,0.0,0.0,65,78,High,0.9
+Cambiaso,D,Elite,63.0,0.0,0.0,63,75,High,0.9
+Zortea,D,Elite,68.0,0.0,0.0,61,73,High,0.9
+Lucca,A,Elite,60.0,0.0,0.0,60,72,High,0.9
+Angelino,D,Elite,59.0,0.0,0.0,59,70,High,0.9
+Zambo Anguissa,C,Elite,54.0,0.0,0.0,54,64,High,0.9
+Ederson D.S.,C,Elite,58.0,0.0,0.0,51,61,High,0.9
+Politano,C,Elite,55.0,0.0,0.0,51,61,High,0.9
+Laurientè,A,Elite,51.0,0.0,0.0,51,61,High,0.9
+Vlasic,C,Elite,46.0,0.0,0.0,46,55,High,0.9
+Mina,D,Medium,21.0,0.0,0.0,21,25,Low,0.7
+Pavlovic,D,Medium,21.0,0.0,0.0,21,25,Low,0.7
+Kamara H.,D,Medium,19.0,0.0,0.0,19,22,Low,0.7
+Caprile,P,Medium,18.0,0.0,0.0,18,21,Low,0.7
+Spinazzola,D,Medium,18.0,0.0,0.0,18,21,Low,0.7
+Hernani,C,Medium,18.0,0.0,0.0,18,21,Low,0.7
+Gabbia,D,Medium,16.0,0.0,0.0,16,19,Low,0.7
+Tourè E.,A,Medium,16.0,0.0,0.0,16,19,Low,0.7
+Ellertsson,C,Medium,15.0,0.0,0.0,15,18,Low,0.7
+Moreo,A,Medium,15.0,0.0,0.0,15,18,Low,0.7
+Angori,D,Medium,14.0,0.0,0.0,14,16,Low,0.7
+Rensch,D,Medium,14.0,0.0,0.0,14,16,Low,0.7
+Darmian,D,Medium,14.0,0.0,0.0,14,16,Low,0.7
+Luis Henrique,C,Medium,14.0,0.0,0.0,14,16,Low,0.7
+Harroui,C,Medium,14.0,0.0,0.0,14,16,Low,0.7
+Mosquera,A,Medium,14.0,0.0,0.0,14,16,Low,0.7
+Turati,P,Medium,13.0,0.0,0.0,13,15,Low,0.7
+Maripan,D,Medium,13.0,0.0,0.0,13,15,Low,0.7
+Zappa,D,Medium,13.0,0.0,0.0,13,15,Low,0.7
+Pezzella Giu.,D,Medium,13.0,0.0,0.0,13,15,Low,0.7
+Boloca,C,Medium,13.0,0.0,0.0,13,15,Low,0.7
+Volpato,C,Medium,13.0,0.0,0.0,13,15,Low,0.7
+Audero,P,Medium,12.0,0.0,0.0,12,14,Low,0.7
+Posch,D,Medium,12.0,0.0,0.0,12,14,Low,0.7
+Lykogiannis,D,Medium,12.0,0.0,0.0,12,14,Low,0.7
+Muharemovic,D,Medium,12.0,0.0,0.0,12,14,Low,0.7
+Kristensen T.,D,Medium,12.0,0.0,0.0,12,14,Low,0.7
+Pierret,C,Medium,12.0,0.0,0.0,12,14,Low,0.7
+Piotrowski,C,Medium,12.0,0.0,0.0,12,14,Low,0.7
+Thorsby,C,Medium,12.0,0.0,0.0,12,14,Low,0.7
+Serdar,C,Medium,12.0,0.0,0.0,12,14,Low,0.7
+Kilicsoy,A,Medium,12.0,0.0,0.0,12,14,Low,0.7
+Suzuki,P,Medium,15.0,0.0,0.0,11,13,Low,0.7
+Falcone,P,Medium,14.0,0.0,0.0,11,13,Low,0.7
+Okoye,P,Medium,17.0,0.0,0.0,11,13,Low,0.7
+Montipò,P,Medium,10.0,0.0,0.0,11,13,Low,0.7
+Milinkovic-Savic V.,P,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Mandas,P,Medium,12.0,0.0,0.0,11,13,Low,0.7
+Kolasinac,D,Medium,17.0,0.0,0.0,11,13,Low,0.7
+Luperto,D,Medium,18.0,0.0,0.0,11,13,Low,0.7
+Comuzzo,D,Medium,17.0,0.0,0.0,11,13,Low,0.7
+Marì,D,Medium,16.0,0.0,0.0,11,13,Low,0.7
+Ranieri L.,D,Medium,16.0,0.0,0.0,11,13,Low,0.7
+Kelly L.,D,Medium,17.0,0.0,0.0,11,13,Low,0.7
+Leoni,D,Medium,16.0,0.0,0.0,11,13,Low,0.7
+Celik,D,Medium,18.0,0.0,0.0,11,13,Low,0.7
+Lazaro,D,Medium,19.0,0.0,0.0,11,13,Low,0.7
+Cuadrado,D,Medium,13.0,0.0,0.0,11,13,Low,0.7
+Ahanor,D,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Valle,D,Medium,13.0,0.0,0.0,11,13,Low,0.7
+Doig,D,Medium,17.0,0.0,0.0,11,13,Low,0.7
+Bertola,D,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Kempf,D,Medium,15.0,0.0,0.0,11,13,Low,0.7
+Floriani Mussolini,D,Medium,14.0,0.0,0.0,11,13,Low,0.7
+Pongracic,D,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Parisi,D,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Sabelli,D,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Gallo,D,Medium,15.0,0.0,0.0,11,13,Low,0.7
+Jimenez A.,D,Medium,18.0,0.0,0.0,11,13,Low,0.7
+Circati,D,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Walukiewicz,D,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Ehizibue,D,Medium,15.0,0.0,0.0,11,13,Low,0.7
+Unai Nunez,D,Medium,10.0,0.0,0.0,11,13,Low,0.7
+Ostigard,D,Medium,13.0,0.0,0.0,11,13,Low,0.7
+De Silvestri,D,Medium,12.0,0.0,0.0,11,13,Low,0.7
+Dossena,D,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Ceccherini,D,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Lazzari,D,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Ghilardi,D,Medium,10.0,0.0,0.0,11,13,Low,0.7
+Ramon,D,Medium,13.0,0.0,0.0,11,13,Low,0.7
+Ndiaye,D,Medium,10.0,0.0,0.0,11,13,Low,0.7
+Goglichidze,D,Medium,10.0,0.0,0.0,11,13,Low,0.7
+Coulibaly L.,C,Medium,14.0,0.0,0.0,11,13,Low,0.7
+Gilmour,C,Medium,12.0,0.0,0.0,11,13,Low,0.7
+Pisilli,C,Medium,15.0,0.0,0.0,11,13,Low,0.7
+Ilic,C,Medium,12.0,0.0,0.0,11,13,Low,0.7
+Felici,C,Medium,13.0,0.0,0.0,11,13,Low,0.7
+Zalewski,C,Medium,10.0,0.0,0.0,11,13,Low,0.7
+Vecino,C,Medium,14.0,0.0,0.0,11,13,Low,0.7
+Ramadani,C,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Keita M.,C,Medium,10.0,0.0,0.0,11,13,Low,0.7
+Tourè I.,C,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Konè I.,C,Medium,14.0,0.0,0.0,11,13,Low,0.7
+Fadera,C,Medium,16.0,0.0,0.0,11,13,Low,0.7
+Karlstrom,C,Medium,14.0,0.0,0.0,11,13,Low,0.7
+Atta,C,Medium,16.0,0.0,0.0,11,13,Low,0.7
+Adopo,C,Medium,14.0,0.0,0.0,11,13,Low,0.7
+Deiola,C,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Masini,C,Medium,10.0,0.0,0.0,11,13,Low,0.7
+Tameze,C,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Mazzitelli,C,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Zielinski,C,Medium,12.0,0.0,0.0,11,13,Low,0.7
+Chukwueze,C,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Ghion,C,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Payero,C,Medium,10.0,0.0,0.0,11,13,Low,0.7
+Bernede,C,Medium,10.0,0.0,0.0,11,13,Low,0.7
+Kastanos,C,Medium,10.0,0.0,0.0,11,13,Low,0.7
+Addai,A,Medium,16.0,0.0,0.0,11,13,Low,0.7
+Johnsen,A,Medium,13.0,0.0,0.0,11,13,Low,0.7
+Beltran L.,A,Medium,13.0,0.0,0.0,11,13,Low,0.7
+Esposito F.P.,A,Medium,13.0,0.0,0.0,11,13,Low,0.7
+Bravo,A,Medium,12.0,0.0,0.0,11,13,Low,0.7
+Rodriguez Je.,A,Medium,14.0,0.0,0.0,11,13,Low,0.7
+Bonny,A,Medium,15.0,0.0,0.0,11,13,Low,0.7
+Almqvist,A,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Lind,A,Medium,11.0,0.0,0.0,11,13,Low,0.7
+Vojvoda,D,Medium,10.0,0.0,0.0,10,12,Low,0.7
+Cabal,D,Medium,10.0,0.0,0.0,10,12,Low,0.7
+Obert,D,Medium,10.0,0.0,0.0,10,12,Low,0.7
+Sulemana I.,C,Medium,10.0,0.0,0.0,10,12,Low,0.7
+Sanabria,A,Medium,10.0,0.0,0.0,10,12,Low,0.7
+Sanchez,A,Medium,10.0,0.0,0.0,10,12,Low,0.7
+Borrelli,A,Medium,10.0,0.0,0.0,10,12,Low,0.7
+Mulattieri,A,Medium,10.0,0.0,0.0,10,12,Low,0.7
+Folino,D,Medium,9.0,0.0,0.0,9,10,Low,0.7
+Salah-Eddine,D,Medium,9.0,0.0,0.0,9,10,Low,0.7
+Frese,D,Medium,9.0,0.0,0.0,9,10,Low,0.7
+Valoti,C,Medium,9.0,0.0,0.0,9,10,Low,0.7
+Piccinini G.,C,Medium,9.0,0.0,0.0,9,10,Low,0.7
+Ordonez C.,C,Medium,9.0,0.0,0.0,9,10,Low,0.7
+Gineitis,C,Medium,9.0,0.0,0.0,9,10,Low,0.7
+Aebischer,C,Medium,9.0,0.0,0.0,9,10,Low,0.7
+Asllani,C,Medium,9.0,0.0,0.0,9,10,Low,0.7
+Castagnetti,C,Medium,9.0,0.0,0.0,9,10,Low,0.7
+Van Der Brempt,D,Medium,8.0,0.0,0.0,8,9,Low,0.7
+Kouassi,D,Medium,8.0,0.0,0.0,8,9,Low,0.7
+Thiaw,D,Medium,8.0,0.0,0.0,8,9,Low,0.7
+Caracciolo A.,D,Medium,8.0,0.0,0.0,8,9,Low,0.7
+Ebosse,D,Medium,8.0,0.0,0.0,8,9,Low,0.7
+Zanoli,D,Medium,8.0,0.0,0.0,8,9,Low,0.7
+Odenthal,D,Medium,8.0,0.0,0.0,8,9,Low,0.7
+Zemura,D,Medium,8.0,0.0,0.0,8,9,Low,0.7
+Prati,C,Medium,8.0,0.0,0.0,8,9,Low,0.7
+Brenner,A,Medium,8.0,0.0,0.0,8,9,Low,0.7
+Azzi,D,Medium,7.0,0.0,0.0,7,8,Low,0.7
+Kostic,C,Medium,7.0,0.0,0.0,7,8,Low,0.7
+Moro N.,C,Medium,7.0,0.0,0.0,7,8,Low,0.7
+Akinsanmiro,C,Medium,7.0,0.0,0.0,7,8,Low,0.7
+Karlsson,A,Medium,7.0,0.0,0.0,7,8,Low,0.7
+Zarraga,C,Bench,6.0,0.0,0.0,6,7,Low,0.5
+Scuffet,P,Medium,5.0,0.0,0.0,5,6,Low,0.7
+Vogliacco,D,Medium,5.0,0.0,0.0,5,6,Low,0.7
+Provstgaard,D,Medium,5.0,0.0,0.0,5,6,Low,0.7
+Juan Jesus,D,Medium,5.0,0.0,0.0,5,6,Low,0.7
+Mazzocchi,D,Medium,5.0,0.0,0.0,5,6,Low,0.7
+Canestrelli,D,Medium,5.0,0.0,0.0,5,6,Low,0.7
+Kumbulla,D,Bench,5.0,0.0,0.0,5,6,Low,0.5
+Pickel,C,Bench,5.0,0.0,0.0,5,6,Low,0.5
+Simeone,A,High,5.0,0.0,0.0,5,6,Low,0.8
+Azon,A,Bench,5.0,0.0,0.0,5,6,Low,0.5
+Di Pardo,D,Bench,4.0,0.0,0.0,4,4,Low,0.5
+Pieragnolo,D,Bench,4.0,0.0,0.0,4,4,Low,0.5
+Oyegoke,D,Bench,4.0,0.0,0.0,4,4,Low,0.5
+Denoon,D,Bench,4.0,0.0,0.0,4,4,Low,0.5
+Coppola F.,D,Bench,4.0,0.0,0.0,4,4,Low,0.5
+Liteta,C,Bench,4.0,0.0,0.0,4,4,Low,0.5
+Pafundi,C,Bench,4.0,0.0,0.0,4,4,Low,0.5
+Alvarez A.,A,Bench,4.0,0.0,0.0,4,4,Low,0.5
+Benedyczak,A,Bench,4.0,0.0,0.0,4,4,Low,0.5
+Ravanelli,D,Bench,3.0,0.0,0.0,3,3,Low,0.5
+Otoa,D,Bench,3.0,0.0,0.0,3,3,Low,0.5
+Palma,D,Bench,3.0,0.0,0.0,3,3,Low,0.5
+Engelhardt,C,Bench,3.0,0.0,0.0,3,3,Low,0.5
+Liberali,C,Bench,3.0,0.0,0.0,3,3,Low,0.5
+Pavoletti,A,Bench,3.0,0.0,0.0,3,3,Low,0.5
+Giovane,A,Bench,3.0,0.0,0.0,3,3,Low,0.5
+Ilic M.,D,Bench,2.0,0.0,0.0,2,2,Low,0.5
+Sernicola,D,Bench,2.0,0.0,0.0,2,2,Low,0.5
+Tiago Gabriel,D,Bench,2.0,0.0,0.0,2,2,Low,0.5
+Esteves T.,D,Bench,2.0,0.0,0.0,2,2,Low,0.5
+Zerbin,C,Medium,2.0,0.0,0.0,2,2,Low,0.7
+Santiago,C,Bench,2.0,0.0,0.0,2,2,Low,0.5
+Marchwinski,C,Bench,2.0,0.0,0.0,2,2,Low,0.5
+Iannoni,C,Bench,2.0,0.0,0.0,2,2,Low,0.5
+Bonfanti N.,A,Bench,2.0,0.0,0.0,2,2,Low,0.5
+Sava,P,Medium,8.0,0.0,0.0,1,1,Low,0.7
+Ravaglia F.,P,Medium,9.0,0.0,0.0,1,1,Low,0.7
+Semper,P,Medium,7.0,0.0,0.0,1,1,Low,0.7
+Martinez Jo.,P,Bench,5.0,0.0,0.0,1,1,Low,0.5
+Rossi F.,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Sportiello,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Pessina Mas.,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Ciocci,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Radunovic,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Vigorito,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Nava,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Martinelli T.,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Siegrist,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Sommariva,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Di Gennaro,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Perin,P,Bench,2.0,0.0,0.0,1,1,Low,0.5
+Pinsoglio,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Furlanetto,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Fruchtl,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Samooja,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Terracciano,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Torriani,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Contini,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Corvi,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Rinaldi,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Nicolas,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Zelezny,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Gollini,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Russo A.,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Satalino,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Donnarumma An.,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Paleari,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Popa,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Padelli,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Perilli,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Vasquez D.,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Nunziante,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Lezzerini,P,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Casale,D,Medium,8.0,0.0,0.0,1,1,Low,0.7
+Goldaniga,D,Medium,8.0,0.0,0.0,1,1,Low,0.7
+Viti,D,Medium,9.0,0.0,0.0,1,1,Low,0.7
+Gigot,D,Medium,8.0,0.0,0.0,1,1,Low,0.7
+Patric,D,Medium,7.0,0.0,0.0,1,1,Low,0.7
+Valenti,D,Medium,9.0,0.0,0.0,1,1,Low,0.7
+Mateus Lusuardi,D,Medium,7.0,0.0,0.0,1,1,Low,0.7
+Romagna,D,Medium,9.0,0.0,0.0,1,1,Low,0.7
+Pedersen,D,Medium,9.0,0.0,0.0,1,1,Low,0.7
+Valentini N.,D,Medium,9.0,0.0,0.0,1,1,Low,0.7
+Bradaric,D,Medium,8.0,0.0,0.0,1,1,Low,0.7
+Palestra,D,Medium,8.0,0.0,0.0,1,1,Low,0.7
+Idrissi R.,D,Medium,7.0,0.0,0.0,1,1,Low,0.7
+Moreno Alb.,D,Medium,7.0,0.0,0.0,1,1,Low,0.7
+Bianchetti,D,Medium,4.0,0.0,0.0,1,1,Low,0.7
+Barbieri,D,Medium,8.0,0.0,0.0,1,1,Low,0.7
+Fortini,D,Medium,5.0,0.0,0.0,1,1,Low,0.7
+Marcandalli,D,Medium,2.0,0.0,0.0,1,1,Low,0.7
+Norton-Cuffy,D,Medium,7.0,0.0,0.0,1,1,Low,0.7
+Rugani,D,Medium,5.0,0.0,0.0,1,1,Low,0.7
+Savona,D,Medium,9.0,0.0,0.0,1,1,Low,0.7
+Pellegrini Lu.,D,Medium,8.0,0.0,0.0,1,1,Low,0.7
+Hysaj,D,Medium,6.0,0.0,0.0,1,1,Low,0.7
+Jean,D,Medium,3.0,0.0,0.0,1,1,Low,0.7
+Bartesaghi,D,Medium,5.0,0.0,0.0,1,1,Low,0.7
+Marianucci,D,Medium,9.0,0.0,0.0,1,1,Low,0.7
+Balogh,D,Medium,7.0,0.0,0.0,1,1,Low,0.7
+Calabresi,D,Medium,8.0,0.0,0.0,1,1,Low,0.7
+Hermoso,D,Medium,8.0,0.0,0.0,1,1,Low,0.7
+Schuurs,D,Medium,5.0,0.0,0.0,1,1,Low,0.7
+Masina,D,Medium,8.0,0.0,0.0,1,1,Low,0.7
+Giannetti L.,D,Medium,7.0,0.0,0.0,1,1,Low,0.7
+Kabasele,D,Medium,6.0,0.0,0.0,1,1,Low,0.7
+Rui Modesto,D,Medium,6.0,0.0,0.0,1,1,Low,0.7
+Bonfanti,D,Bench,5.0,0.0,0.0,1,1,Low,0.5
+Smolcic I.,D,Bench,5.0,0.0,0.0,1,1,Low,0.5
+Jack,D,Bench,4.0,0.0,0.0,1,1,Low,0.5
+Terracciano F.,D,Bench,3.0,0.0,0.0,1,1,Low,0.5
+Hainaut,D,Bench,5.0,0.0,0.0,1,1,Low,0.5
+Lovik,D,Bench,4.0,0.0,0.0,1,1,Low,0.5
+Rus,D,Bench,3.0,0.0,0.0,1,1,Low,0.5
+Missori,D,Bench,5.0,0.0,0.0,1,1,Low,0.5
+Slotsager,D,Bench,5.0,0.0,0.0,1,1,Low,0.5
+Veroli,D,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Rouhi,D,Bench,4.0,0.0,0.0,1,1,Low,0.5
+Perez M.,D,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Veiga D.,D,Bench,2.0,0.0,0.0,1,1,Low,0.5
+Ndaba,D,Bench,2.0,0.0,0.0,1,1,Low,0.5
+Mbambi,D,Bench,2.0,0.0,0.0,1,1,Low,0.5
+Paz Y.,D,Bench,3.0,0.0,0.0,1,1,Low,0.5
+Dembelè A.,D,Bench,3.0,0.0,0.0,1,1,Low,0.5
+Maleh,C,Medium,6.0,0.0,0.0,1,1,Low,0.7
+Musah,C,Medium,9.0,0.0,0.0,1,1,Low,0.7
+Marin M.,C,Medium,8.0,0.0,0.0,1,1,Low,0.7
+Miretti,C,Medium,9.0,0.0,0.0,1,1,Low,0.7
+Cataldi,C,Medium,7.0,0.0,0.0,1,1,Low,0.7
+Sergi Roberto,C,Medium,9.0,0.0,0.0,1,1,Low,0.7
+Grassi,C,Medium,9.0,0.0,0.0,1,1,Low,0.7
+Richardson,C,Medium,8.0,0.0,0.0,1,1,Low,0.7
+Belahyane,C,Medium,5.0,0.0,0.0,1,1,Low,0.7
+Lipani,C,Medium,7.0,0.0,0.0,1,1,Low,0.7
+Venturino,C,Medium,9.0,0.0,0.0,1,1,Low,0.7
+Douglas Luiz,C,Medium,6.0,0.0,0.0,1,1,Low,0.7
+Berisha M.,C,Medium,7.0,0.0,0.0,1,1,Low,0.7
+Rafia,C,Medium,8.0,0.0,0.0,1,1,Low,0.7
+Bondo,C,Medium,7.0,0.0,0.0,1,1,Low,0.7
+Vural,C,Medium,1.0,0.0,0.0,1,1,Low,0.7
+Niasse,C,Medium,6.0,0.0,0.0,1,1,Low,0.7
+Ndour,C,Bench,4.0,0.0,0.0,1,1,Low,0.5
+Sabiri,C,Bench,4.0,0.0,0.0,1,1,Low,0.5
+Estevez,C,Bench,3.0,0.0,0.0,1,1,Low,0.5
+Leris,C,Bench,3.0,0.0,0.0,1,1,Low,0.5
+Alli,C,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Bianco,C,Bench,2.0,0.0,0.0,1,1,Low,0.5
+Basic,C,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Kaba,C,Bench,2.0,0.0,0.0,1,1,Low,0.5
+Hojholt,C,Bench,2.0,0.0,0.0,1,1,Low,0.5
+Arena,C,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Esposito Se.,A,Medium,3.0,0.0,0.0,1,1,Low,0.7
+Noslin,A,Medium,9.0,0.0,0.0,1,1,Low,0.7
+Okereke,A,Medium,7.0,0.0,0.0,1,1,Low,0.7
+Banda,A,Medium,8.0,0.0,0.0,1,1,Low,0.7
+N'Dri,A,Medium,8.0,0.0,0.0,1,1,Low,0.7
+Pierini,A,Medium,9.0,0.0,0.0,1,1,Low,0.7
+Taremi,A,Medium,5.0,0.0,0.0,1,1,Low,0.7
+Okafor,A,Medium,5.0,0.0,0.0,1,1,Low,0.7
+Bayo V.,A,Medium,5.0,0.0,0.0,1,1,Low,0.7
+Cancellieri,A,Medium,6.0,0.0,0.0,1,1,Low,0.7
+Rocha Livramento,A,Medium,8.0,0.0,0.0,1,1,Low,0.7
+Ekuban,A,Bench,5.0,0.0,0.0,1,1,Low,0.5
+Meister,A,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Gabrielloni,A,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Bonazzoli,A,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Nasti,A,Bench,3.0,0.0,0.0,1,1,Low,0.5
+Ekhator,A,Bench,3.0,0.0,0.0,1,1,Low,0.5
+Milik,A,Bench,5.0,0.0,0.0,1,1,Low,0.5
+Buffon L.,A,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Moro L.,A,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Skjellerup,A,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Njie,A,Bench,1.0,0.0,0.0,1,1,Low,0.5
+Pizarro,A,Bench,3.0,0.0,0.0,1,1,Low,0.5
+Carnesecchi,P,High,71.0,0.0,0.0,71,85,Medium,0.8
+De Gea,P,High,62.0,0.0,0.0,61,73,Medium,0.8
+Pellegrino M.,A,High,61.0,0.0,0.0,61,73,Medium,0.8
+Barella,C,High,58.0,0.0,0.0,58,69,Medium,0.8
+Adams C.,A,High,58.0,0.0,0.0,58,69,Medium,0.8
+Zappacosta,D,High,53.0,0.0,0.0,53,63,Medium,0.8
+Kuhn,A,High,53.0,0.0,0.0,53,63,Medium,0.8
+Wesley,D,High,52.0,0.0,0.0,52,62,Medium,0.8
+Bellanova,D,High,52.0,0.0,0.0,52,62,Medium,0.8
+Provedel,P,High,54.0,0.0,0.0,51,61,Medium,0.8
+Di Lorenzo,D,High,57.0,0.0,0.0,51,61,Medium,0.8
+Frattesi,C,High,54.0,0.0,0.0,51,61,Medium,0.8
+Pedro,A,High,45.0,0.0,0.0,45,54,Medium,0.8
+Buongiorno,D,High,44.0,0.0,0.0,44,52,Medium,0.8
+Dodò,D,High,44.0,0.0,0.0,44,52,Medium,0.8
+Neres,C,High,43.0,0.0,0.0,43,51,Medium,0.8
+Skorupski,P,High,49.0,0.0,0.0,41,49,Medium,0.8
+Bremer,D,High,44.0,0.0,0.0,41,49,Medium,0.8
+Tavares N.,D,High,49.0,0.0,0.0,41,49,Medium,0.8
+Hien,D,High,40.0,0.0,0.0,41,49,Medium,0.8
+Koopmeiners,C,High,40.0,0.0,0.0,41,49,Medium,0.8
+Isaksen,C,High,45.0,0.0,0.0,41,49,Medium,0.8
+Konè M.,C,High,41.0,0.0,0.0,41,49,Medium,0.8
+Modric,C,High,40.0,0.0,0.0,41,49,Medium,0.8
+Tramoni M.,C,High,42.0,0.0,0.0,41,49,Medium,0.8
+Colombo,A,High,44.0,0.0,0.0,41,49,Medium,0.8
+Solet,D,High,37.0,0.0,0.0,37,44,Medium,0.8
+Samardzic,C,High,35.0,0.0,0.0,35,42,Medium,0.8
+Bernabè,C,High,35.0,0.0,0.0,35,42,Medium,0.8
+Rrahmani,D,High,32.0,0.0,0.0,32,38,Medium,0.8
+Butez,P,High,32.0,0.0,0.0,31,37,Medium,0.8
+Estupinan,D,High,37.0,0.0,0.0,31,37,Medium,0.8
+Martin,D,High,32.0,0.0,0.0,31,37,Medium,0.8
+Carlos Augusto,D,High,31.0,0.0,0.0,31,37,Medium,0.8
+Mandragora,C,High,33.0,0.0,0.0,31,37,Medium,0.8
+Jashari,C,High,39.0,0.0,0.0,31,37,Medium,0.8
+De Roon,C,High,34.0,0.0,0.0,31,37,Medium,0.8
+Da Cunha,C,High,33.0,0.0,0.0,31,37,Medium,0.8
+Vandeputte,C,High,36.0,0.0,0.0,31,37,Medium,0.8
+Gronbaek,C,High,34.0,0.0,0.0,31,37,Medium,0.8
+Locatelli,C,High,32.0,0.0,0.0,31,37,Medium,0.8
+Saelemaekers,C,High,38.0,0.0,0.0,31,37,Medium,0.8
+Sohm,C,High,33.0,0.0,0.0,31,37,Medium,0.8
+Casadei,C,High,30.0,0.0,0.0,31,37,Medium,0.8
+Ferguson,C,High,31.0,0.0,0.0,31,37,Medium,0.8
+Fazzini,C,High,36.0,0.0,0.0,31,37,Medium,0.8
+Dele-Bashiru,C,High,33.0,0.0,0.0,31,37,Medium,0.8
+Fofana Y.,C,High,37.0,0.0,0.0,31,37,Medium,0.8
+Mkhitaryan,C,High,30.0,0.0,0.0,31,37,Medium,0.8
+Vitinha O.,A,High,30.0,0.0,0.0,31,37,Medium,0.8
+Gonzalez N.,A,High,36.0,0.0,0.0,31,37,Medium,0.8
+Israel,P,High,30.0,0.0,0.0,30,36,Medium,0.8
+Mancini,D,High,30.0,0.0,0.0,30,36,Medium,0.8
+Carboni V.,C,High,29.0,0.0,0.0,29,34,Medium,0.8
+Pellegrini Lo.,C,High,28.0,0.0,0.0,28,33,Medium,0.8
+Davis K.,A,High,28.0,0.0,0.0,28,33,Medium,0.8
+Valeri,D,High,27.0,0.0,0.0,27,32,Medium,0.8
+Caqueret,C,High,27.0,0.0,0.0,27,32,Medium,0.8
+Olivera,D,High,26.0,0.0,0.0,26,31,Medium,0.8
+N'Dicka,D,High,26.0,0.0,0.0,26,31,Medium,0.8
+Acerbi,D,High,26.0,0.0,0.0,26,31,Medium,0.8
+Baturina,C,High,26.0,0.0,0.0,26,31,Medium,0.8
+Tomori,D,High,25.0,0.0,0.0,25,30,Medium,0.8
+Maldini,C,High,25.0,0.0,0.0,25,30,Medium,0.8
+Cutrone,A,High,25.0,0.0,0.0,25,30,Medium,0.8
+Miranda J.,D,High,24.0,0.0,0.0,24,28,Medium,0.8
+Bisseck,D,High,24.0,0.0,0.0,24,28,Medium,0.8
+McKennie,C,High,24.0,0.0,0.0,24,28,Medium,0.8
+Lovric,C,High,24.0,0.0,0.0,24,28,Medium,0.8
+Aboukhlal,A,High,24.0,0.0,0.0,24,28,Medium,0.8
+Sarr A.,A,High,24.0,0.0,0.0,24,28,Medium,0.8
+Pavard,D,High,23.0,0.0,0.0,23,27,Medium,0.8
+Marusic,D,High,23.0,0.0,0.0,23,27,Medium,0.8
+Ondrejka,C,High,23.0,0.0,0.0,23,27,Medium,0.8
+Anjorin,C,High,23.0,0.0,0.0,23,27,Medium,0.8
+Cristante,C,High,23.0,0.0,0.0,23,27,Medium,0.8
+Suslov,C,High,23.0,0.0,0.0,23,27,Medium,0.8
+Kossounou,D,High,22.0,0.0,0.0,22,26,Medium,0.8
+Romagnoli,D,High,22.0,0.0,0.0,22,26,Medium,0.8
+Luvumbo,A,High,22.0,0.0,0.0,22,26,Medium,0.8
+Leali,P,High,28.0,0.0,0.0,21,25,Medium,0.8
+Beukema,D,High,25.0,0.0,0.0,21,25,Medium,0.8
+Kalulu,D,High,24.0,0.0,0.0,21,25,Medium,0.8
+Scalvini,D,High,24.0,0.0,0.0,21,25,Medium,0.8
+Lucumì,D,High,21.0,0.0,0.0,21,25,Medium,0.8
+Holm,D,High,21.0,0.0,0.0,21,25,Medium,0.8
+Delprato,D,High,21.0,0.0,0.0,21,25,Medium,0.8
+Biraghi,D,High,23.0,0.0,0.0,21,25,Medium,0.8
+Freuler,C,High,27.0,0.0,0.0,21,25,Medium,0.8
+Guendouzi,C,High,24.0,0.0,0.0,21,25,Medium,0.8
+Vazquez,C,High,27.0,0.0,0.0,21,25,Medium,0.8
+Pierotti,C,High,20.0,0.0,0.0,21,25,Medium,0.8
+Ricci S.,C,High,27.0,0.0,0.0,21,25,Medium,0.8
+Ekkelenkamp,C,High,22.0,0.0,0.0,21,25,Medium,0.8
+Pasalic,C,High,28.0,0.0,0.0,21,25,Medium,0.8
+Bernardeschi,C,High,27.0,0.0,0.0,21,25,Medium,0.8
+Folorunsho,C,High,27.0,0.0,0.0,21,25,Medium,0.8
+Frendrup,C,High,21.0,0.0,0.0,21,25,Medium,0.8
+Sucic P.,C,High,24.0,0.0,0.0,21,25,Medium,0.8
+Lobotka,C,High,23.0,0.0,0.0,21,25,Medium,0.8
+El Aynaoui,C,High,29.0,0.0,0.0,21,25,Medium,0.8
+Brescianini,C,High,23.0,0.0,0.0,21,25,Medium,0.8
+Pobega,C,High,22.0,0.0,0.0,21,25,Medium,0.8
+Fagioli,C,High,24.0,0.0,0.0,21,25,Medium,0.8
+Malinovskyi,C,High,25.0,0.0,0.0,21,25,Medium,0.8
+Rovella,C,High,22.0,0.0,0.0,21,25,Medium,0.8
+Helgason,C,High,24.0,0.0,0.0,21,25,Medium,0.8
+Thorstvedt,C,High,24.0,0.0,0.0,21,25,Medium,0.8
+Raspadori,A,High,20.0,0.0,0.0,21,25,Medium,0.8
+Camarda,A,High,22.0,0.0,0.0,21,25,Medium,0.8
+Nzola,A,High,28.0,0.0,0.0,21,25,Medium,0.8
+Cambiaghi,A,High,26.0,0.0,0.0,21,25,Medium,0.8
+Sulemana K.,A,High,20.0,0.0,0.0,21,25,Medium,0.8
+Dominguez B.,A,High,24.0,0.0,0.0,21,25,Medium,0.8
+Djuric,A,High,21.0,0.0,0.0,21,25,Medium,0.8
+Ngonge,A,High,24.0,0.0,0.0,21,25,Medium,0.8
+De Luca,A,High,22.0,0.0,0.0,21,25,Medium,0.8
+Vasquez,D,High,20.0,0.0,0.0,20,24,Medium,0.8
+De Vrij,D,High,20.0,0.0,0.0,20,24,Medium,0.8
+Gila,D,High,20.0,0.0,0.0,20,24,Medium,0.8
+Man,C,High,19.0,0.0,0.0,19,22,Medium,0.8
+Perrone,C,High,19.0,0.0,0.0,19,22,Medium,0.8
+Stanciu,C,High,19.0,0.0,0.0,19,22,Medium,0.8
+El Shaarawy,C,High,19.0,0.0,0.0,19,22,Medium,0.8
+Joao Mario,D,High,18.0,0.0,0.0,18,21,Medium,0.8
+Baschirotto,D,High,18.0,0.0,0.0,18,21,Medium,0.8
+Messias,C,High,18.0,0.0,0.0,18,21,Medium,0.8
+Fabbian,C,High,17.0,0.0,0.0,17,20,Medium,0.8
+Gaetano,C,High,16.0,0.0,0.0,16,19,Medium,0.8
+Djimsiti,D,High,15.0,0.0,0.0,15,18,Medium,0.8
+Vitik,D,High,18.0,0.0,0.0,11,13,Medium,0.8
+De Winter,D,High,17.0,0.0,0.0,11,13,Medium,0.8
+Gatti,D,High,13.0,0.0,0.0,11,13,Medium,0.8
+Gaspar K.,D,High,19.0,0.0,0.0,11,13,Medium,0.8
+Coco,D,High,16.0,0.0,0.0,11,13,Medium,0.8
+Ismajli,D,High,16.0,0.0,0.0,11,13,Medium,0.8
+Tchatchoua,D,High,17.0,0.0,0.0,11,13,Medium,0.8
+Tete Morente,C,High,19.0,0.0,0.0,11,13,Medium,0.8
+Collocolo,C,High,19.0,0.0,0.0,11,13,Medium,0.8
+Loftus-Cheek,C,High,16.0,0.0,0.0,11,13,Medium,0.8
+Baldanzi,C,High,18.0,0.0,0.0,11,13,Medium,0.8
+Dallinga,A,High,18.0,0.0,0.0,11,13,Medium,0.8
+Douvikas,A,High,16.0,0.0,0.0,11,13,Medium,0.8

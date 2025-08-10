@@ -1,0 +1,7 @@
+player_name,role,tier,base_value,shading_factor,scarcity_weight,recommended_bid,max_bid,priority,confidence
+Martinez L.,A,Elite,380.0,0.0,0.0,381,160,High,0.9
+Kean,A,Elite,375.0,0.0,0.0,371,160,High,0.9
+Lukaku,A,Elite,341.0,0.0,0.0,341,160,High,0.9
+Thuram,A,Elite,318.0,0.0,0.0,311,160,High,0.9
+David,A,Elite,278.0,0.0,0.0,271,160,High,0.9
+Orsolini,C,Elite,220.0,0.0,0.0,221,160,High,0.9
